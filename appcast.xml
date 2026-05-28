@@ -6,6 +6,33 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.6.0</title>
+      <pubDate>Thu, 28 May 2026 21:43:02 +0000</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+# Recall 0.6.0
+
+## Features
+
+- feat(scripts): run-prod.sh for beta-flavor local runs
+
+## Fixes
+
+- fix(label): widen open_question to 160 chars + word-boundary clamp
+- fix(run-prod): restore Developer ID signing — full DMG-fidelity local run
+- fix(run-prod): sign with the dev cert so TCC grants persist
+- fix(build): embed Sparkle.framework in dev builds too
+
+## Other
+
+- release: v0.6.0
+- Set today as defaul in insight page.
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.6.0/Recall-0.6.0.dmg" sparkle:edSignature="v3F6qXZisPr0JD6MKrI84vz5TGwFuyVUSUZLnc3+tjmro2DBdB8ArroP0e+BA1jLpbHw4iarO6jcW1YtWwLAAQ==" length="15816781" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.5.0</title>
       <pubDate>Thu, 28 May 2026 18:58:16 +0000</pubDate>
       <sparkle:version>29</sparkle:version>
