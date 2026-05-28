@@ -6,6 +6,25 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.4.0</title>
+      <pubDate>Thu, 28 May 2026 18:44:29 +0000</pubDate>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+# Recall 0.4.0
+
+## Fixes
+
+- fix(updater): check receipt-file existence, not just URL nullability
+
+## Other
+
+- release: v0.4.0
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.4.0/Recall-0.4.0.dmg" sparkle:edSignature="wezTXNgpS0DcGs9/59hFY6PFLRpNZ3bYLkOAbUecoH2fZu6yEqCHxePnpL/DbNRlabfbMO7t/2th60ZapmfgDw==" length="15815260" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.3.0</title>
       <pubDate>Thu, 28 May 2026 18:25:55 +0000</pubDate>
       <sparkle:version>27</sparkle:version>
