@@ -44,7 +44,7 @@
 - chore(build): silence build warnings
 - tune(qwen): per-prompt sampling profiles + raise vision input to 2558px
       ]]></description>
-      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.2.0/Recall-0.2.0.dmg" sparkle:edSignature="QfFXuziO2hBysrvA+NBeF4EZtwUgwsZAc1Zm20G2ZIRVdKMlmU240kCwuw8VBJ7d8VCDbY2e9Wq9sm52TY2SAA==" length="14860609" type="application/octet-stream" />
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.2.0/Recall-0.2.0.dmg" sparkle:edSignature="yAiPaMNfeakqv20Zu4wWeXF2gkVSy4vgvMJBFKeDC3HT85Z32FzqeTYPieLIzAez6ypfGjIBhZ5xA3QGjZufBQ==" length="15815038" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
