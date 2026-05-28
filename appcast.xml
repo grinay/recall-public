@@ -5,5 +5,46 @@
     <link>https://github.com/grinay/recall-public</link>
     <description>Recall release feed</description>
     <language>en</language>
+    <item>
+      <title>Version 0.2.0</title>
+      <pubDate>Thu, 28 May 2026 18:02:53 +0000</pubDate>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+# Recall 0.2.0
+
+## Features
+
+- feat(release): notes draft, Sparkle sign, appcast push, tag, gh release
+- feat(release): --publish flag with preflight + version bump
+- feat(settings): Check for Updates… button in About section
+- feat(updater): wire UpdaterService into ServiceContainer + AppDelegate
+- feat(updater): UpdaterService wraps Sparkle with MAS-receipt gate
+- feat(launch-at-login): register Recall as a login item
+- feat(behavior-mode): make LiveMode the canonical driver, drop the toggle
+- feat(helper): instrument RecallHelper with Sentry
+- feat(distribution): non-sandbox DMG ship + onboarding polish
+
+## Fixes
+
+- fix(popover): wrap re-entry title/question and put `?` at the end
+- fix(downloader): heal existing tokenizer_config.json on every launch
+- fix(downloader): patch tokenizer_class on download to keep swift-transformers happy
+
+## Performance
+
+- perf(screen-analysis): slow cadence to 30s on base-tier Apple GPUs
+
+## Other
+
+- release: v0.2.0
+- chore(plist): wire Sparkle feed URL + EdDSA public key
+- chore(deps): add Sparkle 2.x for auto-updates
+- chore(build): silence build warnings
+- tune(qwen): per-prompt sampling profiles + raise vision input to 2558px
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.2.0/Recall-0.2.0.dmg" sparkle:edSignature="QfFXuziO2hBysrvA+NBeF4EZtwUgwsZAc1Zm20G2ZIRVdKMlmU240kCwuw8VBJ7d8VCDbY2e9Wq9sm52TY2SAA==" length="14860609" type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
