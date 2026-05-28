@@ -6,6 +6,26 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.3.0</title>
+      <pubDate>Thu, 28 May 2026 18:25:55 +0000</pubDate>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+# Recall 0.3.0
+
+## Fixes
+
+- fix(release): embed Sparkle.framework + sign before main bundle
+- fix(release): use sed /r instead of awk for appcast item insert
+
+## Other
+
+- release: v0.3.0
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.3.0/Recall-0.3.0.dmg" sparkle:edSignature="REGpXKsUC6YsciLvOTAvVzIBotN1YXCBDSKLUFx+cw0BzHRSu1bFaNPKIvHcdsDM6+W8Q4LO+Z0aWWN4+58NDg==" length="15814984" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.2.0</title>
       <pubDate>Thu, 28 May 2026 18:02:53 +0000</pubDate>
       <sparkle:version>26</sparkle:version>
