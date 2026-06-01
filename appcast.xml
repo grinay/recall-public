@@ -6,6 +6,34 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.7.0</title>
+      <pubDate>Mon, 01 Jun 2026 21:53:48 +0000</pubDate>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+# Recall 0.7.0
+
+## New
+
+- **New on-device AI model — Ministral-3.** Screen understanding now runs on Mistral AI's Ministral-3 vision model (replacing Qwen 3.5-VL) for faster, more reliable frame analysis. It auto-downloads on first launch.
+- **Project tracking for browser-only work.** If you mostly work in a browser (marketing, research, analytics, AI assistants), Recall now builds Projects and Smart Return for you too — provisional projects form from what you're actually working on and mature into full projects over time. Still no manual tagging.
+
+## Improvements
+
+- **Video meetings now count as interruptions.** Zoom / Google Meet / Teams calls drop focus and surface a drift nudge; async chat (Slack, etc.) stays "reactive" and is saved silently.
+- **Smart Return appears promptly on return.** Fixed a bug where coming back from a long break could leave the re-entry panel ~1 min late or missing entirely.
+- **"Too many threads" only when truly overloaded** — now requires 3+ distinct projects instead of firing on a single thread.
+- Saved-for-later threads always resurface on return, even without an assigned topic.
+
+## Under the hood
+
+- Faster inference (1024px frames + VisionZip), chat-template fix, image token-cache (VLCache), helper-process hardening.
+- Removed the legacy screenshot-captures debug store (reclaims significant disk).
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.7.0/Recall-0.7.0.dmg" sparkle:edSignature="LtsfQivVECBzcVcgy1U2F9kK+hdy+Zy6y3EdzBERM4e4bcExSA7R0JQodSrzgS/bfWVVLLlvF5C59kDSWRkKBA==" length="15839247" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.6.0</title>
       <pubDate>Thu, 28 May 2026 21:43:02 +0000</pubDate>
       <sparkle:version>30</sparkle:version>
