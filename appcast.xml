@@ -6,6 +6,21 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.7.1</title>
+      <pubDate>Tue, 02 Jun 2026 13:58:50 +0000</pubDate>
+      <sparkle:version>32</sparkle:version>
+      <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+# Recall 0.7.1
+
+## Fixes
+
+- **Smart Return now appears after an overnight or weekend break.** Opening your laptop in the morning is the most common moment to want "here's where you left off" — but Recall was only looking back 8 hours, so after a longer gap it surfaced nothing. It now reliably brings back your most recent thread after overnight and weekend breaks.
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.7.1/Recall-0.7.1.dmg" sparkle:edSignature="scAL2Tojj9j77DJ4kgHaVigv1TeT5Fo0ByxvHUX3z0Ulzgz6QIJaf1uSoH5yIvj9Z8MVRH4n46gczCvk9FIKAA==" length="15839720" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.7.0</title>
       <pubDate>Mon, 01 Jun 2026 21:53:48 +0000</pubDate>
       <sparkle:version>31</sparkle:version>
