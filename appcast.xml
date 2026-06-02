@@ -6,6 +6,21 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.7.2</title>
+      <pubDate>Tue, 02 Jun 2026 15:45:22 +0000</pubDate>
+      <sparkle:version>33</sparkle:version>
+      <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.7.2</h1>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Drift nudges now name what you were working on.</strong> When you stepped away — say, into a meeting — the "you drifted" nudge showed a generic "your last thread." It now names the actual project or task you left, so it's clear what to come back to.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.7.2/Recall-0.7.2.dmg" sparkle:edSignature="7fsKtms4269R4SmBU6yu+29OmvaLxynOIyhPH4pd9lKjY3H3IcHk+yarcb7BGYrzcOA+JBCtqFHkeoKzZvL8Aw==" length="15839752" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.7.1</title>
       <pubDate>Tue, 02 Jun 2026 13:58:50 +0000</pubDate>
       <sparkle:version>32</sparkle:version>
