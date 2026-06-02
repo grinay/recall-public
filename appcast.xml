@@ -12,11 +12,11 @@
       <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-# Recall 0.7.1
-
-## Fixes
-
-- **Smart Return now appears after an overnight or weekend break.** Opening your laptop in the morning is the most common moment to want "here's where you left off" — but Recall was only looking back 8 hours, so after a longer gap it surfaced nothing. It now reliably brings back your most recent thread after overnight and weekend breaks.
+<h1>Recall 0.7.1</h1>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Smart Return now appears after an overnight or weekend break.</strong> Opening your laptop in the morning is the most common moment to want "here's where you left off" — but Recall was only looking back 8 hours, so after a longer gap it surfaced nothing. It now reliably brings back your most recent thread after overnight and weekend breaks.</li>
+</ul>
       ]]></description>
       <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.7.1/Recall-0.7.1.dmg" sparkle:edSignature="scAL2Tojj9j77DJ4kgHaVigv1TeT5Fo0ByxvHUX3z0Ulzgz6QIJaf1uSoH5yIvj9Z8MVRH4n46gczCvk9FIKAA==" length="15839720" type="application/octet-stream" />
     </item>
@@ -27,24 +27,24 @@
       <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-# Recall 0.7.0
-
-## New
-
-- **New on-device AI model — Ministral-3.** Screen understanding now runs on Mistral AI's Ministral-3 vision model (replacing Qwen 3.5-VL) for faster, more reliable frame analysis. It auto-downloads on first launch.
-- **Project tracking for browser-only work.** If you mostly work in a browser (marketing, research, analytics, AI assistants), Recall now builds Projects and Smart Return for you too — provisional projects form from what you're actually working on and mature into full projects over time. Still no manual tagging.
-
-## Improvements
-
-- **Video meetings now count as interruptions.** Zoom / Google Meet / Teams calls drop focus and surface a drift nudge; async chat (Slack, etc.) stays "reactive" and is saved silently.
-- **Smart Return appears promptly on return.** Fixed a bug where coming back from a long break could leave the re-entry panel ~1 min late or missing entirely.
-- **"Too many threads" only when truly overloaded** — now requires 3+ distinct projects instead of firing on a single thread.
-- Saved-for-later threads always resurface on return, even without an assigned topic.
-
-## Under the hood
-
-- Faster inference (1024px frames + VisionZip), chat-template fix, image token-cache (VLCache), helper-process hardening.
-- Removed the legacy screenshot-captures debug store (reclaims significant disk).
+<h1>Recall 0.7.0</h1>
+<h2>New</h2>
+<ul>
+<li><strong>New on-device AI model — Ministral-3.</strong> Screen understanding now runs on Mistral AI's Ministral-3 vision model (replacing Qwen 3.5-VL) for faster, more reliable frame analysis. It auto-downloads on first launch.</li>
+<li><strong>Project tracking for browser-only work.</strong> If you mostly work in a browser (marketing, research, analytics, AI assistants), Recall now builds Projects and Smart Return for you too — provisional projects form from what you're actually working on and mature into full projects over time. Still no manual tagging.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li><strong>Video meetings now count as interruptions.</strong> Zoom / Google Meet / Teams calls drop focus and surface a drift nudge; async chat (Slack, etc.) stays "reactive" and is saved silently.</li>
+<li><strong>Smart Return appears promptly on return.</strong> Fixed a bug where coming back from a long break could leave the re-entry panel ~1 min late or missing entirely.</li>
+<li><strong>"Too many threads" only when truly overloaded</strong> — now requires 3+ distinct projects instead of firing on a single thread.</li>
+<li>Saved-for-later threads always resurface on return, even without an assigned topic.</li>
+</ul>
+<h2>Under the hood</h2>
+<ul>
+<li>Faster inference (1024px frames + VisionZip), chat-template fix, image token-cache (VLCache), helper-process hardening.</li>
+<li>Removed the legacy screenshot-captures debug store (reclaims significant disk).</li>
+</ul>
       ]]></description>
       <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.7.0/Recall-0.7.0.dmg" sparkle:edSignature="LtsfQivVECBzcVcgy1U2F9kK+hdy+Zy6y3EdzBERM4e4bcExSA7R0JQodSrzgS/bfWVVLLlvF5C59kDSWRkKBA==" length="15839247" type="application/octet-stream" />
     </item>
