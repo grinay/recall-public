@@ -6,6 +6,21 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.7.3</title>
+      <pubDate>Wed, 03 Jun 2026 12:00:59 +0000</pubDate>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>0.7.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.7.3</h1>
+<h2>Improvements</h2>
+<ul>
+<li><strong>Smart Return suggests browser projects the same day.</strong> If you put real time (25+ min) into a browser-based project — research, analytics, a web app — Smart Return can now bring it back the same day, instead of waiting until you've worked on it across two separate days.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.7.3/Recall-0.7.3.dmg" sparkle:edSignature="vIlgYQDLTP8t4c095yZXC89EVMICvaY+obQKWc7d86VT0dUIFAh+Ai/beQybZdkAhVbQBLJcsXQ+aARvNzQdCA==" length="15841887" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.7.2</title>
       <pubDate>Tue, 02 Jun 2026 15:45:22 +0000</pubDate>
       <sparkle:version>33</sparkle:version>
