@@ -6,6 +6,33 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.8.0</title>
+      <pubDate>Thu, 04 Jun 2026 19:32:30 +0000</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.8.0</h1>
+<h2>New: Efforts — your work, grouped by product</h2>
+<p>Recall now groups your related projects into the real products and initiatives they belong to. Code repos, web apps, dashboards, and team channels that belong to the same product roll up into a single effort — automatically, on‑device, with no manual tagging. See it in the new <strong>Efforts today</strong> panel on the Today tab.</p>
+<p>It groups only what your activity supports — deterministic identity from your repos and URLs plus distinctive concepts from your topics — entirely on your device.</p>
+<h2>Improved</h2>
+<ul>
+<li><strong>More accurate project attribution</strong> — when you bounce between projects, a session is attributed to the work you were <em>focused</em> on, not whichever had the most frames.</li>
+<li><strong>Cleaner Today view</strong> — your distinct projects show as separate cards with real titles.</li>
+<li><strong>Leaner, faster on‑device analysis</strong> — fewer fields per frame; the active file name is read from the OS rather than guessed.</li>
+<li><strong>Concise re‑entry and drift cards.</strong></li>
+</ul>
+<h2>Fixed</h2>
+<ul>
+<li>Thread labels and topics could stop updating when a backlog of empty sessions built up. Fixed.</li>
+<li><strong>Overloaded</strong> mode now nudges when you're juggling several projects.</li>
+<li>Projects served on different localhost ports are no longer merged together.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.8.0/Recall-0.8.0.dmg" sparkle:edSignature="0Mv8Ejevaau/O3kemmFJ295DG3vllJ3ADDDvrzwD6JLGbSR05/TvPqAfWfc9gad1eDRlD/4k+qGb0hUIzQXCBg==" length="15912262" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.7.3</title>
       <pubDate>Wed, 03 Jun 2026 12:00:59 +0000</pubDate>
       <sparkle:version>34</sparkle:version>
