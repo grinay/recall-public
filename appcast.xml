@@ -6,6 +6,18 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.9.1</title>
+      <pubDate>Mon, 08 Jun 2026 15:42:16 +0000</pubDate>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's new in 0.9.1</h2>
+<p>Polish: focus prompts are now labeled correctly for each situation, so the prompt you see always matches what Recall is actually nudging you about.</p>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.9.1/Recall-0.9.1.dmg" sparkle:edSignature="naNgZ43nQKrpMBFVK81P5O2iXjXZqbJLojq5bUnzkwVOeYiu8xtgVzoRQ2YvBTo91rnGBEJxJFt+82kkROwvDw==" length="15927990" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.9.0</title>
       <pubDate>Mon, 08 Jun 2026 15:25:11 +0000</pubDate>
       <sparkle:version>36</sparkle:version>
