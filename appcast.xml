@@ -6,6 +6,21 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.9.0</title>
+      <pubDate>Mon, 08 Jun 2026 15:25:11 +0000</pubDate>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h2>What's new in 0.9.0</h2>
+<p><strong>Smarter distraction detection.</strong> Recall now understands when you've genuinely drifted to something unrelated to your work — and stays quiet when what you're looking at is relevant to it — instead of relying on a fixed list of "distracting" sites. Whatever your work is, Recall judges drift against <em>that</em>.</p>
+<p><strong>Better "come back" nudges.</strong> When you drift, the gentle nudge now names what you were working on, doesn't interrupt once you've already returned, and reappears if a long distraction keeps going.</p>
+<p><strong>Smoother one-click return.</strong> Returning to a thread now brings an already-open app or browser tab to the front instead of opening a duplicate.</p>
+<p>Plus reliability fixes to the focus engine and nudge display.</p>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.9.0/Recall-0.9.0.dmg" sparkle:edSignature="Bn1lp8ZQMTeEaqZxx1Mm5b3PwpfRxdcZAsqR4QnPUHvKTZ/Bt9DISpCu6kdiJStAaJnZ7Pj/VVfBy5H7VGV+Bg==" length="15927699" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.8.0</title>
       <pubDate>Thu, 04 Jun 2026 19:32:30 +0000</pubDate>
       <sparkle:version>35</sparkle:version>
