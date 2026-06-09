@@ -6,6 +6,25 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.10.0</title>
+      <pubDate>Tue, 09 Jun 2026 21:03:41 +0000</pubDate>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.10.0</h1>
+<h2>Features</h2>
+<ul>
+<li><strong>Foggy mode detection</strong> — Recall now notices when you've been on one project for a while without actually moving forward (re-reading, file-hopping, staring) and gently surfaces a single anchor card to help you re-engage. Detection is deliberately strict: a lightweight on-device signal must hold for 15 minutes straight <em>and</em> the on-device AI must independently confirm the work is stalled before anything appears — genuine deep work is never interrupted. Dismissing the card keeps it away for 30 minutes.</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Mode classification consolidated onto the live deterministic classifier; the legacy bucket-based routing path was removed (~500 lines deleted, all tests migrated).</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.10.0/Recall-0.10.0.dmg" sparkle:edSignature="Gp2xu8WbAOODVpjOmjYb+/z2ieqKLYAvYOJjAIVJccJrRduhfGZhKm6yUjaId6PSGjkbq9pPFzOuls9mQLPEAw==" length="15939296" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.9.3</title>
       <pubDate>Tue, 09 Jun 2026 19:24:46 +0000</pubDate>
       <sparkle:version>39</sparkle:version>
