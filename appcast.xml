@@ -6,6 +6,23 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.12.1</title>
+      <pubDate>Wed, 10 Jun 2026 14:14:19 +0000</pubDate>
+      <sparkle:version>43</sparkle:version>
+      <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.12.1</h1>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Slack huddles are now treated as meetings</strong> — joining a huddle from focused work silently saves your dropped thread, exactly like a Zoom call. Previously huddles ran through the chat path and could end with a "you drifted" nudge mid-call.</li>
+<li><strong>Long calls never nudge</strong> — meetings of any length stay silent until they end. Previously a call longer than ~10 minutes could fall back into drift detection.</li>
+<li><strong>Leisure browsing can no longer pass as work via a single coincidental word</strong> — a TikTok video about "video editing" no longer counts as on-task just because your real work shares one word with it. Genuinely work-related content on the same sites still classifies correctly.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.12.1/Recall-0.12.1.dmg" sparkle:edSignature="CFVIRkKzTCcslptwit8pm8lJba2ZbyjmtFzvoakXSqhs8WZZ5gUL9YOxIS/llzwzxO30Gr7EH6wY4pOHg42MDw==" length="15940848" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.12.0</title>
       <pubDate>Wed, 10 Jun 2026 12:41:19 +0000</pubDate>
       <sparkle:version>42</sparkle:version>
