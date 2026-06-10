@@ -6,6 +6,26 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.13.0</title>
+      <pubDate>Wed, 10 Jun 2026 18:16:52 +0000</pubDate>
+      <sparkle:version>44</sparkle:version>
+      <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.13.0</h1>
+<h2>Features</h2>
+<ul>
+<li><strong>Recall now learns your work shape</strong> — the Focus page shows an inferred work type ("Product builder", "Engineer-coder"…) with a confidence level, your primary apps, most active hours, secondary signals, and how you best return to work after breaks. It's judged weekly by the on-device AI from a 30-day evidence summary — aggregates only, never raw screen content — and like everything in Recall it never leaves your Mac.</li>
+<li>Confidence is earned, not asserted: the first assessment caps at Medium, and the label only reaches High after consecutive weekly runs agree. Until there's about a week of activity, the card simply says it's still learning.</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>The work profile is the first surface of Recall's profession-neutrality work: the same evidence will later teach the classifier what counts as work for <em>you</em> specifically — whether your work lives in code, design files, chats, or calls.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.13.0/Recall-0.13.0.dmg" sparkle:edSignature="8HQKjd87LH1FliyA9Fubak72GiZCPVKaHXkCkeeqT2uPiHQ9KsFPo5QJwNzqITlwSEZyQWTtBDrEZrGy88XCCw==" length="16011097" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.12.1</title>
       <pubDate>Wed, 10 Jun 2026 14:14:19 +0000</pubDate>
       <sparkle:version>43</sparkle:version>
