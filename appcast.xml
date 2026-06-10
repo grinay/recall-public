@@ -6,6 +6,28 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.12.0</title>
+      <pubDate>Wed, 10 Jun 2026 12:41:19 +0000</pubDate>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.12.0</h1>
+<h2>Performance</h2>
+<ul>
+<li><strong>Screen analysis is now 2.4x faster on M1/M2</strong> — 17s → ~7s end-to-end steady state (M3 Pro: ~4.1s → ~2.6s). On top of 0.11.0's fp16 + KV-cache groundwork, this release restructures the prompt so the static instructions ride in a cached system message instead of being re-processed on every frame, and stops the chat template from injecting ~530 tokens of model boilerplate per request.</li>
+<li><strong>Thread labeling and project classification are ~20% faster</strong> — every text prompt was paying the same boilerplate tax; now none do.</li>
+<li>Less GPU time per frame also means lower power draw during all-day tracking.</li>
+</ul>
+<h2>Notes</h2>
+<ul>
+<li>The first 1–2 analyses after the app starts run a few seconds slower than steady state while the cache warms up — everything after that is fast.</li>
+<li>Analysis quality is verified equivalent: same outputs on test screenshots, JSON structure intact.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.12.0/Recall-0.12.0.dmg" sparkle:edSignature="eDr0OISW2kX0tCRheGvWfvFkzAQdEglPBvob+UY12VQL73TnaXk0VPk7aQt11z/EL64X8I3hu0GbUlWMtsW2Dg==" length="15939599" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.11.0</title>
       <pubDate>Wed, 10 Jun 2026 09:58:45 +0000</pubDate>
       <sparkle:version>41</sparkle:version>
