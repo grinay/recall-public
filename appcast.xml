@@ -6,6 +6,25 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.14.0</title>
+      <pubDate>Wed, 10 Jun 2026 19:49:07 +0000</pubDate>
+      <sparkle:version>45</sparkle:version>
+      <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.14.0</h1>
+<h2>Features</h2>
+<ul>
+<li><strong>Opt-in diagnostics sharing</strong> — a new switch in Settings → Privacy lets you help fix Recall by sharing what it saw and decided when something goes wrong. It's <strong>off by default</strong> and stays off unless you turn it on. When enabled, Recall uploads (encrypted, to EU storage, auto-deleted after 30 days) the screenshots its AI analyzed, the AI's inputs and outputs, app/window activity, and its own mode decisions — identified only by a random ID, never your name or email. A confirmation screen spells out exactly what's collected before anything leaves your Mac, and you can turn it off at any time (which stops uploads and deletes the local queue immediately). While it's on, the app says so plainly.</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Continuous tailing of the full replay stream (LLM traces + images + DB deltas + runtime mode/panel decisions) so issues can be reproduced exactly; write-only upload credential, server-side 30-day retention.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.14.0/Recall-0.14.0.dmg" sparkle:edSignature="iaVW4VZdzAcSePBhIHvtHfwM4RV02BWO6wHg/sR1tkOnJRI26Dv6UCHWdA9Moa8i3hlWkIiw6JuIWWnjHtHSAg==" length="16081434" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.13.0</title>
       <pubDate>Wed, 10 Jun 2026 18:16:52 +0000</pubDate>
       <sparkle:version>44</sparkle:version>
