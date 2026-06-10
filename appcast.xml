@@ -6,6 +6,29 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.11.0</title>
+      <pubDate>Wed, 10 Jun 2026 09:58:45 +0000</pubDate>
+      <sparkle:version>41</sparkle:version>
+      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.11.0</h1>
+<h2>Features</h2>
+<ul>
+<li><strong>Reactive mode now works</strong> — when a chat ping or a meeting pulls you out of focused work, Recall detects the interruption the minute it happens and silently saves your dropped thread so it's waiting for you when you come back. Meetings no longer trigger a "you drifted" nudge mid-call — a call that interrupts your work is treated as an interruption, not a distraction. If a quick reply turns into a 10+ minute chat spiral, the gentle drift nudge still has your back.</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Screen analysis is dramatically faster</strong> — roughly 2x on M1/M2 (17s → ~9.5s steady state) and ~20% on M3 Pro (~4.1s → ~3.4s). Three changes: fp16 weights (M1/M2 GPUs emulate bf16, so fp16 halves the prefill cost at verified-equivalent quality), a prompt-prefix KV cache (the static instruction block is prefilled once and reused on every request), and captures downscaled to the model's own 1024px input cap before sending. Lower latency also means less GPU time per frame — better battery.</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Reactive detection rewrote the classifier's interruption rule from an unreachable 5-minute state ratio to a 90-second edge detector with a bounded 10-minute hold; a tick-by-tick reachability regression test now guards it.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.11.0/Recall-0.11.0.dmg" sparkle:edSignature="6cMpQtSNzj4BHHmxP2gBW1oRa4PkeTyj987Rpz1h7PV70lYTkM5033uEnWRb/d/oGwC5wT9OqI/GCzYh2MmQBg==" length="15945922" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.10.0</title>
       <pubDate>Tue, 09 Jun 2026 21:03:41 +0000</pubDate>
       <sparkle:version>40</sparkle:version>
