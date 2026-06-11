@@ -6,6 +6,30 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.15.0</title>
+      <pubDate>Thu, 11 Jun 2026 13:51:21 +0000</pubDate>
+      <sparkle:version>46</sparkle:version>
+      <sparkle:shortVersionString>0.15.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.15.0</h1>
+<h2>Features</h2>
+<ul>
+<li><strong>Work Summary</strong> — a new Summary tab gives you a daily work recap written by the on-device AI: a short overview of how the day went, what moved forward, and what's still open. Generate or refresh it whenever you like (today refreshes at most every couple of hours); step back through past days to read their recaps. Once a day is over, its summary is captured and frozen.</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li><strong>Modes are easier to reach on Apple-silicon Macs</strong> — the live mode signals now track Recall's actual capture rhythm, so interruptions and other states register correctly on machines that analyze less frequently. M3/M4 (base) Macs now also run analysis at the faster cadence.</li>
+<li><strong>Cleaner main window</strong> — removed the redundant Mode Breakdown strip from Focus, the deterministic and Efforts panels from Today, and the separate Reports tab. The work-shape card and your daily recap are the home for that information now.</li>
+</ul>
+<h2>Notes</h2>
+<ul>
+<li>The Summary recap is generated only when you ask for it, and like everything in Recall it's produced on-device.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.15.0/Recall-0.15.0.dmg" sparkle:edSignature="Vdqj1Wy8rYYxvNXOicjzwUF6N+Y+OckbH8tj7NfIs4RdzhbPKR+DWTs0aqZfD0cst1r5AFzYNkl5+nwy4HQQAw==" length="16031993" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.14.0</title>
       <pubDate>Wed, 10 Jun 2026 19:49:07 +0000</pubDate>
       <sparkle:version>45</sparkle:version>
