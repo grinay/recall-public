@@ -6,6 +6,56 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.16.0</title>
+      <pubDate>Thu, 11 Jun 2026 22:05:45 +0000</pubDate>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.16.0</h1>
+<h2>Features</h2>
+<ul>
+<li>feat(feedback): live 'N frames redacted so far' counter in scanning UI</li>
+<li>feat(detector): frame-level keyword enable in scanner; all-occurrence redaction; provenance + perf guards</li>
+<li>feat(detector): replace blanket entropy rule with gitleaks ruleset + frame-keyword fallback</li>
+<li>feat(detector): GitleaksRuleSet engine (keyword prefilter, entropy, allowlists)</li>
+<li>feat(detector): Shannon entropy helper</li>
+<li>feat(detector): vendor gitleaks ruleset as JSON + generator script</li>
+<li>feat(feedback): deliver reports via Sentry native User Feedback instead of Issues events</li>
+<li>feat(feedback): simplified custom range (one day + whole start/end hours), lock icon aligned to checkbox column</li>
+<li>feat(feedback): entry points — popover footer + Settings row, bubble icon</li>
+<li>feat(feedback): feedback window (form, range presets, disclosure checkboxes) + wiring</li>
+<li>feat(feedback): FeedbackService — bug/feature submission, real cancel, spool-backed upload, Sentry events</li>
+<li>feat(feedback): range-scoped bundle builder with text masking + image redaction</li>
+<li>feat(feedback): Vision OCR scanner mapping detector hits to pixel regions</li>
+<li>feat(feedback): ImageRedactor — black-box regions on JPEG, drop-on-failure contract</li>
+<li>feat(feedback): deterministic sensitive-text detector (cards, IBAN, keys, seed phrases)</li>
+<li>feat(feedback): Tunables.Feedback constants; expose TelemetryBatcher.jsonValue</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>fix(feedback): detect AWS session tokens + opaque high-entropy secrets</li>
+<li>fix(feedback): card detector requires real card grouping (kills timestamp false positives); manifest lists redacted frame ids</li>
+<li>fix(feedback): per-report Sentry fingerprint — stop all reports grouping into one issue</li>
+<li>fix(helper): re-ignore SIGPIPE after Sentry start — its crash monitor overrides SIG_IGN</li>
+<li>fix(feedback): time menus in date popover (clock unusable for input), redaction note as accented text</li>
+<li>fix(feedback): redaction note embedded in screenshots checkbox card; popover calendar date pickers</li>
+<li>fix(feedback): card-style disclosure rows (note attached to checkbox), arrow-free .field date pickers</li>
+<li>fix(feedback): QA pass — non-truncating disclosure, local-redaction callout, honest sent copy, compact date pickers</li>
+<li>fix(feedback): live 4h clamp note, DatePicker bounds, StateObject-owned view model</li>
+<li>fix(feedback): off-main log excerpt + submitBug re-entrance guard</li>
+<li>fix(feedback): keep trace timestamps in screenshots-only bundles; test size-cap trim</li>
+<li>fix(feedback): detector review fixes — lowercase IBAN, dot/NBSP cards, ASIA keys, cased seed words</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>release: v0.16.0</li>
+<li>chore: remove Today ambient card; backlog deferred frame-review; QA + feedback plan docs</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.16.0/Recall-0.16.0.dmg" sparkle:edSignature="3g785zYiw5ZVMIMHro6X1bnKtwxuFWBP7xSsfjW0s/MEIL3hTr9yLy1/LGWhCb/futiRn18JlQXAvqrXjh11Dg==" length="16211426" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.15.1</title>
       <pubDate>Thu, 11 Jun 2026 14:38:27 +0000</pubDate>
       <sparkle:version>47</sparkle:version>
