@@ -6,6 +6,28 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.15.1</title>
+      <pubDate>Thu, 11 Jun 2026 14:38:27 +0000</pubDate>
+      <sparkle:version>47</sparkle:version>
+      <sparkle:shortVersionString>0.15.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.15.1</h1>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Fixed a crash when opening Settings → Acknowledgements.</strong> The licenses screen could crash the app on open; it now loads correctly.</li>
+<li><strong>Fewer freezes / beachballs.</strong> Recall no longer does a filesystem search on the main thread while you work, which was causing intermittent multi-second hangs.</li>
+<li><strong>Diagnostics uploads now work as intended.</strong> Opting into Diagnostics now reliably captures and uploads the full session (including the AI's screenshots and decisions); a bug left the richest data permanently empty.</li>
+<li><strong>Inference stability.</strong> Hardened the on-device model against a couple of crashes — a closed-connection signal and a rare empty-frame case (e.g. on lock screen / display changes).</li>
+</ul>
+<h2>Privacy</h2>
+<ul>
+<li><strong>Crash reports no longer include your name or hostname.</strong> Recall's automatic crash/error reporting now identifies your install only by a random ID, sending just your macOS version and Mac model for triage — and this is now disclosed in Settings → Privacy and the bundled notices.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.15.1/Recall-0.15.1.dmg" sparkle:edSignature="iLsvlDewhAI9k2ATna52+iT9KYQlcB3yi6HIHRTkgB+wsokr91n5QdpBbd+deYvnhSQkheekqnSUtppQ/6JUCA==" length="16041873" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.15.0</title>
       <pubDate>Thu, 11 Jun 2026 13:51:21 +0000</pubDate>
       <sparkle:version>46</sparkle:version>
