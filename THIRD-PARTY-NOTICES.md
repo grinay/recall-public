@@ -6,6 +6,17 @@ below. Recall itself is © Aleksandr Grinevskii.
 
 ---
 
+## Crash & error reporting (Sentry)
+
+Recall uses the Sentry SDK to send crash and error reports so bugs can be
+fixed. Reports are sent to Sentry's US service and include: the macOS version,
+the Mac model, a random per-install identifier, and a short trail of recent
+in-app events. They do NOT include your name, your account, or screenshots
+(`sendDefaultPii` is disabled). This is automatic and separate from the opt-in
+Diagnostics feature (Settings → Privacy).
+
+---
+
 ## AI model
 
 **Ministral-3-3B-Instruct-2512** — © Mistral AI, licensed under the
