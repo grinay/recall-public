@@ -6,6 +6,37 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.17.0</title>
+      <pubDate>Thu, 11 Jun 2026 23:05:56 +0000</pubDate>
+      <sparkle:version>49</sparkle:version>
+      <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.17.0</h1>
+<h2>Features</h2>
+<ul>
+<li>feat(feedback): optional image attachments (up to 3) on bug + feature reports</li>
+<li>feat(feedback): apply capture-time stored regions in bundle, skip report-time OCR (fallback for old rows)</li>
+<li>feat(detector): compute redaction regions from full-res capture (recording-gated), thread to trace</li>
+<li>feat(detector): persist redactionRegions on llm_traces; thread via GenerationOptions</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>fix(detector): PASS 3 OCR-noise-robust credential-blob redaction</li>
+<li>fix(detector): store empty capture regions as "[]" (ship-as-is), nil only on OCR failure — clean frames skip report scan</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li>perf(detector): SensitiveContentScanner detect-once + normalized RedactionRegion (fixes per-observation 3.4s/frame)</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>release: v0.17.0</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.17.0/Recall-0.17.0.dmg" sparkle:edSignature="x+5MKOrVN3upj6Zca4iSfaFc2PsXol2Qi9IHXIEf7NZWKFNdlKfX0i9GHsmLYxDP8NyH/2Zd4BMXTYVIbHlFDw==" length="16242357" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.16.0</title>
       <pubDate>Thu, 11 Jun 2026 22:05:45 +0000</pubDate>
       <sparkle:version>48</sparkle:version>
