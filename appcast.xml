@@ -6,6 +6,28 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.19.0</title>
+      <pubDate>Fri, 12 Jun 2026 05:07:46 +0000</pubDate>
+      <sparkle:version>51</sparkle:version>
+      <sparkle:shortVersionString>0.19.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.19.0</h1>
+<h2>Fixes</h2>
+<ul>
+<li>fix(release): DMG icon layout no longer flakes the build</li>
+<li>fix(insights): load selected period on open (Today tab showed week data until toggled)</li>
+<li>fix(focus): derive focusScore from continuation behaviour, not the model's constant 0.95</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>release: v0.19.0</li>
+<li>tool(replay): drift-free replay harness over real classifiers</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.19.0/Recall-0.19.0.dmg" sparkle:edSignature="LY12tG5nZqUkbZyYpbBYdaPYb7LFILZ5fVvpPbZPji4w4kmdi2L5f0q7WB9sgeF4XaoHlG04M0jvk7WGcTBlCA==" length="16242824" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.18.0</title>
       <pubDate>Fri, 12 Jun 2026 04:33:47 +0000</pubDate>
       <sparkle:version>50</sparkle:version>
