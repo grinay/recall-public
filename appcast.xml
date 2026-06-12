@@ -6,6 +6,31 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.26.0</title>
+      <pubDate>Fri, 12 Jun 2026 12:25:03 +0000</pubDate>
+      <sparkle:version>58</sparkle:version>
+      <sparkle:shortVersionString>0.26.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.26.0</h1>
+<h2>Features</h2>
+<ul>
+<li>feat(breaks): profile-driven break verdict (bidirectionally validated) + break UI + comm-path coverage</li>
+<li>feat(labeler): profession-neutral prompt + WorkProfile-anchored break/drift verdict</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>fix(labeler): neutral empty-marker for AI-assistant titles signal</li>
+<li>fix(labeler): title-age staleness gate + relaunch-proof tracker + de-slugged labels</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>release: v0.26.0</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.26.0/Recall-0.26.0.dmg" sparkle:edSignature="vbIDQ+4Fl+0CXLwH7sIChhfcVfxy89SpretoYjC+Q5MAoNeTuEoWCZcDwjEnUBrpuMCyD5FF5z0zmFlGmsJYAQ==" length="16293752" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.25.0</title>
       <pubDate>Fri, 12 Jun 2026 10:31:29 +0000</pubDate>
       <sparkle:version>57</sparkle:version>
