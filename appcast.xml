@@ -6,6 +6,25 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.27.1</title>
+      <pubDate>Fri, 12 Jun 2026 13:20:58 +0000</pubDate>
+      <sparkle:version>60</sparkle:version>
+      <sparkle:shortVersionString>0.27.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.27.1</h1>
+<h2>Fixes</h2>
+<ul>
+<li>fix(restore): land on the right WINDOW and the right WORKSPACE, not just the right app</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>release: v0.27.1</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.27.1/Recall-0.27.1.dmg" sparkle:edSignature="3WbdGuduSrUZo2WwzLHpdm73zZI55pK32EQIqEcyB7ghG9wph9gUAb36LzMiwalHGrMjMf6cJPxzfCAGFGCxDw==" length="16314902" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.27.0</title>
       <pubDate>Fri, 12 Jun 2026 13:02:07 +0000</pubDate>
       <sparkle:version>59</sparkle:version>
