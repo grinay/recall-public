@@ -6,6 +6,31 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.25.0</title>
+      <pubDate>Fri, 12 Jun 2026 10:31:29 +0000</pubDate>
+      <sparkle:version>57</sparkle:version>
+      <sparkle:shortVersionString>0.25.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.25.0</h1>
+<h2>Features</h2>
+<ul>
+<li>feat(analysis+labeling): de-bias stale window titles (session names) from frames and thread labels</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>fix(modes): profession-neutral mode engine + real BehaviorMode in Insights (R&amp;D 8)</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>release: v0.25.0</li>
+<li>chore(scripts): remove remaining Python analysis scripts — Swift-only policy</li>
+<li>refactor(replay): replace Python replay_eval with drift-free Swift frame replay</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.25.0/Recall-0.25.0.dmg" sparkle:edSignature="eTD10akviautnH/ioBHDVFZ8GPSwlkAezbn6PxpcE+qAzGyWrjnsfwpnPvrp98ldy7JR9Q2PllsT7dImT5A1Ag==" length="16281277" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.24.0</title>
       <pubDate>Fri, 12 Jun 2026 08:05:12 +0000</pubDate>
       <sparkle:version>56</sparkle:version>
