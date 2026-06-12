@@ -6,6 +6,29 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.20.0</title>
+      <pubDate>Fri, 12 Jun 2026 05:27:10 +0000</pubDate>
+      <sparkle:version>52</sparkle:version>
+      <sparkle:shortVersionString>0.20.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.20.0</h1>
+<h2>Features</h2>
+<ul>
+<li>feat(consolidation): fuzzy-dedup guard snaps garbled near-duplicate project names</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>fix(profile): clean-boundary truncation for work-profile description (was cutting mid-word)</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>release: v0.20.0</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.20.0/Recall-0.20.0.dmg" sparkle:edSignature="lixwFGN1/ETwwl2cFWeK2iwXDVnqwLcRqiOsahDcBZzqgppyevLSC3QU6xr/YhUkuBUhlLToDEQATWCwMPVhBQ==" length="16246084" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.19.0</title>
       <pubDate>Fri, 12 Jun 2026 05:07:46 +0000</pubDate>
       <sparkle:version>51</sparkle:version>
