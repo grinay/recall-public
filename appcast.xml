@@ -6,6 +6,25 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.23.0</title>
+      <pubDate>Fri, 12 Jun 2026 07:52:30 +0000</pubDate>
+      <sparkle:version>55</sparkle:version>
+      <sparkle:shortVersionString>0.23.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.23.0</h1>
+<h2>Fixes</h2>
+<ul>
+<li>fix(window): front dashboard reliably from tray; float it above restored apps on return</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>release: v0.23.0</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.23.0/Recall-0.23.0.dmg" sparkle:edSignature="jXFuMewTTrnlk4ENHB0VoZINj8D3Dlf9r2ke7etxip86XV+hV7semXV9/HunNFYpESkf+hn1IkBHeCfQ4IRoDA==" length="16254377" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.22.0</title>
       <pubDate>Fri, 12 Jun 2026 07:21:04 +0000</pubDate>
       <sparkle:version>54</sparkle:version>
