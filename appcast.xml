@@ -6,6 +6,25 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.24.0</title>
+      <pubDate>Fri, 12 Jun 2026 08:05:12 +0000</pubDate>
+      <sparkle:version>56</sparkle:version>
+      <sparkle:shortVersionString>0.24.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.24.0</h1>
+<h2>Fixes</h2>
+<ul>
+<li>fix(restore): focus the thread's primary app on return (was random)</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>release: v0.24.0</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.24.0/Recall-0.24.0.dmg" sparkle:edSignature="+uZ+4hkH8c7tzwJO+MVcmmwTsu54FdtkCh8eXvCaArCDmvAwztmeoEcfG6ZMqkPjD6zome1CbCrHdeumbYF1DA==" length="16261741" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.23.0</title>
       <pubDate>Fri, 12 Jun 2026 07:52:30 +0000</pubDate>
       <sparkle:version>55</sparkle:version>
