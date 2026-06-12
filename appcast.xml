@@ -6,6 +6,25 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.22.0</title>
+      <pubDate>Fri, 12 Jun 2026 07:21:04 +0000</pubDate>
+      <sparkle:version>54</sparkle:version>
+      <sparkle:shortVersionString>0.22.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.22.0</h1>
+<h2>Features</h2>
+<ul>
+<li>feat(ocr+ui): raise VLM input to 1152px for legible screen text; license + feedback polish</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>release: v0.22.0</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.22.0/Recall-0.22.0.dmg" sparkle:edSignature="hyNb2jcoBe6KySsnRgvD/OLw5+bpU83Oaf+1rNi7pxX5SYA1Zfv8O2HzVD6SGVhzIouGRUtviinKStw0ChMQAA==" length="16254264" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.21.0</title>
       <pubDate>Fri, 12 Jun 2026 06:21:40 +0000</pubDate>
       <sparkle:version>53</sparkle:version>
