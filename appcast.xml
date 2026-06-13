@@ -6,6 +6,29 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.28.0</title>
+      <pubDate>Sat, 13 Jun 2026 21:07:23 +0000</pubDate>
+      <sparkle:version>61</sparkle:version>
+      <sparkle:shortVersionString>0.28.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.28.0</h1>
+<p>A test build for our testers. Highlights you can feel:</p>
+<h2>Improvements</h2>
+<ul>
+<li><strong>Better distraction detection.</strong> Watching unrelated TV/YouTube is now correctly recognized as a break even when your actual work involves video or research — generic overlaps ("video", "content") no longer shelter off-topic viewing.</li>
+<li><strong>Smarter communication grouping.</strong> Chat and email activity is now annotated with the project it's actually about, so your day reads more coherently in the report.</li>
+<li><strong>Clearer activity descriptions.</strong> The on-screen analysis names the real task from the window/conversation headline instead of fixating on a prominent-but-secondary detail, reads chats by their messages, and avoids inventing outcomes.</li>
+</ul>
+<h2>Under the hood</h2>
+<ul>
+<li>A large synthetic test corpus across many professions now exercises the full pipeline, so behavior is validated for non-developer work (design, marketing, support, legal, etc.), not just coding.</li>
+</ul>
+<p>_Please report anything that feels off — wrong project grouping, a distraction that wasn't flagged (or a focused session wrongly flagged), or an odd activity label._</p>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.28.0/Recall-0.28.0.dmg" sparkle:edSignature="M2x4/mS1beyTWfBja+4QVka0Hnj+/wGi6lYCiw25dUND7sVbMJ4VDxd4CwCWZ3/q06EivdS2vueGBCoxmMvYCw==" length="16334552" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.27.1</title>
       <pubDate>Fri, 12 Jun 2026 13:20:58 +0000</pubDate>
       <sparkle:version>60</sparkle:version>
