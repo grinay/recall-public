@@ -6,6 +6,30 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.29.0</title>
+      <pubDate>Mon, 15 Jun 2026 06:16:57 +0000</pubDate>
+      <sparkle:version>62</sparkle:version>
+      <sparkle:shortVersionString>0.29.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.29.0</h1>
+<p>A test build for our testers. What's new since 0.28.0:</p>
+<h2>Improvements</h2>
+<ul>
+<li><strong>Sharper, leaner screen understanding.</strong> Capture now focuses on the active window and skips frames with nothing to read, so the on-device model sees more detail where it matters — better at reading file names, ticket numbers, and titles — while doing less work.</li>
+<li><strong>Smarter distraction detection — and fairer across the board.</strong></li>
+</ul>
+<p>  - A quick Slack/email interruption while you're working is no longer misread as a distraction (it's an interruption, handled differently).</p>
+<p>  - Distraction detection now works for <strong>web-based work</strong> too — if your day lives in web apps (support consoles, accounting, CRM, recruiting), drifting off to unrelated video/social is now caught, the same way it already was for file-based work.</p>
+<h2>Under the hood</h2>
+<ul>
+<li>The full pipeline (focus modes, session grouping, distraction, labeling, project consolidation) is now validated against a large synthetic dataset spanning many professions — so behavior is checked for non-developer work, not just coding.</li>
+</ul>
+<p>_Please flag anything that feels off — a distraction that wasn't caught (or a focused session wrongly flagged), wrong project grouping, or an odd activity label._</p>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.29.0/Recall-0.29.0.dmg" sparkle:edSignature="HkYTiXilYbHRWIusW4lV+k1QRvV/LSxa+pMlu1PDk9AKRSfUN++QlqbeDGGUREPrhEDWwQCsNUy/neiJ2ujRBA==" length="16339151" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.28.0</title>
       <pubDate>Sat, 13 Jun 2026 21:07:23 +0000</pubDate>
       <sparkle:version>61</sparkle:version>
