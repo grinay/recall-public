@@ -6,6 +6,21 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.31.0</title>
+      <pubDate>Mon, 15 Jun 2026 14:42:38 +0000</pubDate>
+      <sparkle:version>64</sparkle:version>
+      <sparkle:shortVersionString>0.31.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.31.0</h1>
+<h2>Improved</h2>
+<ul>
+<li><strong>Task switching that actually works.</strong> When you move between different Claude Code conversations in the same project, Recall now opens a fresh, correctly-named thread for the new task — instead of the previous task's label following you around. The earlier detection couldn't tell a genuine task switch from the same task reworded; this version uses the conversation itself as the signal, so the switch is recognised reliably.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.31.0/Recall-0.31.0.dmg" sparkle:edSignature="KpBfP53Dq9bba1sx7Se1kTPevOjT137ycqDuSVSdzOtUK1AM+L1RQu8dYSlsTUjwJ7M2khJqribgQHJ1fWYtCA==" length="16398485" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.30.0</title>
       <pubDate>Mon, 15 Jun 2026 13:29:01 +0000</pubDate>
       <sparkle:version>63</sparkle:version>
