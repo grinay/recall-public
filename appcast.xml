@@ -6,6 +6,29 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.30.0</title>
+      <pubDate>Mon, 15 Jun 2026 13:29:01 +0000</pubDate>
+      <sparkle:version>63</sparkle:version>
+      <sparkle:shortVersionString>0.30.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.30.0</h1>
+<h2>New</h2>
+<ul>
+<li><strong>Tasks you can check off.</strong> Every task now has a checkbox on the Today and project pages (and in the Smart Return panel) — tick to mark it done, untick to reopen. An <strong>Active / Done</strong> filter keeps finished tasks tucked away by default.</li>
+<li><strong>Finished tasks complete themselves.</strong> When Recall sees an on-screen confirmation (a form submitted, an email sent, a PR merged), it quietly marks a small, single-task topic done instead of nagging you about it for days. Bigger topics aren't touched — the finished piece just stops resurfacing.</li>
+<li><strong>Smarter task switching.</strong> Moving to a genuinely different task inside the same project now opens a fresh, correctly-named thread, instead of carrying the previous task's label around with you.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>No more drift nudges while you're away.</strong> A distraction reminder can no longer fire minutes into an idle gap about something that already ended.</li>
+<li><strong>Chat attachments stop hijacking labels.</strong> A pinned Telegram/Slack file no longer gets mistaken for the file you're working on — your coding session keeps its real name.</li>
+<li><strong>Your work isn't mislabeled as leisure.</strong> Startup/outreach work on sites like LinkedIn reads as work (not a break) once Recall has tied it to one of your projects — while mindless scrolling on the same site still counts as drift.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.30.0/Recall-0.30.0.dmg" sparkle:edSignature="ysng3/HPTikvaJ4umexWjaLGsyk1qCad5647f7y+YZgFwkPhBIHPskn+fpOx0Tc/n+VAD5+OqnqSutj70JRGBg==" length="16394608" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.29.0</title>
       <pubDate>Mon, 15 Jun 2026 06:16:57 +0000</pubDate>
       <sparkle:version>62</sparkle:version>
