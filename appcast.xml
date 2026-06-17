@@ -6,6 +6,48 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.33.0</title>
+      <pubDate>Wed, 17 Jun 2026 18:11:56 +0000</pubDate>
+      <sparkle:version>66</sparkle:version>
+      <sparkle:shortVersionString>0.33.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.33.0</h1>
+<h2>Features</h2>
+<ul>
+<li>feat(context): SnapshotContextFilter per-window same-project filter</li>
+<li>feat(corpus): context-coherence metric (foreign windows)</li>
+<li>feat(corpus): ExpectedThread.contextProjects</li>
+<li>feat(capture): persist per-window structuralKey on snapshots</li>
+<li>feat(db): projectForStructuralKey resolver</li>
+<li>feat(db): app_snapshots.structuralKey column (v50)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>fix(labeling): drop uncorroborated title tokens from thread labels</li>
+<li>fix(restore): route restore + preview through shared SnapshotContextFilter (parity)</li>
+<li>fix(context): ThreadContext.snapshots filters off-project windows (panel + scorer GREEN)</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>release: v0.33.0</li>
+<li>test(corpus): fix contextScore metric test for the filtered ThreadContext</li>
+<li>test(corpus): slack-glance cross-project days (support/marketing/recruiter/sales) — backfill complete</li>
+<li>test(corpus): browser-glance cross-project days (architect-cad/music-producer/video-editor)</li>
+<li>test(corpus): browser-glance cross-project days (academic/journalist/accountant/3d-artist)</li>
+<li>test(context): regression gate green — context 0 across 6 cross-project professions, no metric regressed</li>
+<li>chore: gitignore local replay-labels.json (staleness-eval ground truth)</li>
+<li>test(corpus): pattern-coverage cross-project days (browser/slack/cross-persona, RED)</li>
+<li>test(corpus): indie-hacker + data-analyst cross-project days (RED)</li>
+<li>test(corpus): wire context metric into run + software-developer cross-project day (RED)</li>
+<li>test(fixture): FixtureDayBuilder.snapshot(structuralKey:)</li>
+<li>refactor(context): extract ThreadContext.snapshots shared by panel/scorer</li>
+<li>refactor(db): projectForStructuralKey delegates to projectId(forStructuralKey:)</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.33.0/Recall-0.33.0.dmg" sparkle:edSignature="38f5hV11FU3jaka5QHCzZnxsqNYw0fP+pCAmLCXuZuJFgQ2oi7KWE8+JhVHkRWiRXpAAtGYzG5MkoFrga/LcBQ==" length="16614907" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.32.0</title>
       <pubDate>Tue, 16 Jun 2026 19:28:46 +0000</pubDate>
       <sparkle:version>65</sparkle:version>
