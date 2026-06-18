@@ -6,6 +6,46 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.33.1</title>
+      <pubDate>Thu, 18 Jun 2026 08:19:39 +0000</pubDate>
+      <sparkle:version>67</sparkle:version>
+      <sparkle:shortVersionString>0.33.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.33.1</h1>
+<p><strong>Critical fix:</strong> this resolves a crash that stopped <strong>0.32.0 and 0.33.0 from running</strong> — the app would launch, then vanish from the menu bar a moment later with no error or alert. If you were on 0.32.0 or 0.33.0, this update restores a working build <strong>with all of their features included</strong> (they're listed below, since those releases never actually ran for most people).</p>
+<h2>Fixes</h2>
+<ul>
+<li>fix(launch): app crashed silently shortly after launch — the Public Suffix List loaded through the wrong resource accessor on shipped builds, which aborted the first project-consolidation tick</li>
+</ul>
+<h2>Context coherence (carried over from 0.33.0)</h2>
+<ul>
+<li>feat(context): per-window project identity on snapshots — Smart Return and the context stack no longer bleed in off-project windows</li>
+<li>fix(labeling): drop uncorroborated title tokens from thread labels — a stale conversation title no longer leaks into the label</li>
+<li>fix(restore): restore + preview now filter off-project windows, matching the context stack</li>
+</ul>
+<h2>Project consolidation &amp; splitting (carried over from 0.32.0)</h2>
+<ul>
+<li>feat(consolidation): split mixed projects apart — split judge prompt + planner with a reversible audit trail</li>
+<li>feat(consolidation): web projects anchored by registrable domain; jira grouped by ticket prefix; localhost/IP by host</li>
+<li>feat(consolidation): dominant-token anchoring + star-merge, key-aware rename, same-name deterministic merge</li>
+<li>feat(consolidation): cross-anchor merge judge + guarded LLM backfill</li>
+<li>feat(loops): Open Loops inbox — stalest-first unresolved topics, in a new Loops tab</li>
+</ul>
+<h2>Other improvements (carried over from 0.32.0)</h2>
+<ul>
+<li>feat(feedback): paste clipboard image attachments with Cmd-V</li>
+<li>feat(today): drillable "Other" card with one-level back navigation</li>
+<li>fix(insights): focus-modes heatmap now driven by real behavior data</li>
+<li>fix(smart-return): return to the live thread from the tray, not the dashboard</li>
+<li>fix(capture): the active task now switches correctly between concurrent Claude conversations in one folder</li>
+<li>fix(focus): "foggy" no longer bleeds into productive work after a foggy spell</li>
+<li>fix(today): the "Other" bucket no longer opens the wrong thread</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.33.1/Recall-0.33.1.dmg" sparkle:edSignature="fuG2dKQvS66edfdDYJ71Teww7zOF0QdUB5seAItQ1sDPJqvC03Toi8dMrbWdKgGmqnGE4uMmDufFRU/f9NW8Ag==" length="16615773" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.33.0</title>
       <pubDate>Wed, 17 Jun 2026 18:11:56 +0000</pubDate>
       <sparkle:version>66</sparkle:version>
