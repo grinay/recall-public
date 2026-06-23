@@ -6,6 +6,29 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.35.0</title>
+      <pubDate>Tue, 23 Jun 2026 08:36:53 +0000</pubDate>
+      <sparkle:version>69</sparkle:version>
+      <sparkle:shortVersionString>0.35.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.35.0</h1>
+<h2>Features</h2>
+<ul>
+<li>feat(settings): gate LLM debug behind developer mode (auto-run, no toggle)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>fix(feedback): re-entry completion, feedback-window UX, prefix-cache pin</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>release: v0.35.0</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.35.0/Recall-0.35.0.dmg" sparkle:edSignature="i1gyAYecz/liUnVJ+5eHOayPazVLOwQWFO91LgOs0B81uiPl9w8nPLNVVVxcXWptxy1BvZh0D1vgUUf+UIWeAw==" length="16725224" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.34.0</title>
       <pubDate>Mon, 22 Jun 2026 18:49:10 +0000</pubDate>
       <sparkle:version>68</sparkle:version>
