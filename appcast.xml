@@ -6,6 +6,53 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.36.0</title>
+      <pubDate>Thu, 25 Jun 2026 15:28:18 +0000</pubDate>
+      <sparkle:version>70</sparkle:version>
+      <sparkle:shortVersionString>0.36.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.36.0</h1>
+<h2>Features</h2>
+<ul>
+<li>feat(relevance): scope to rescue-only (drop inert down-vote) + high=0.60</li>
+<li>feat(relevance): build WorkContext from topic/thread text via bge-small (async refresh)</li>
+<li>feat(relevance): embed frame subject async upstream + thread bge-small vector into focus path</li>
+<li>feat(relevance): app-side bge-small embedding service (MLXEmbedders)</li>
+<li>feat(relevance): apply semantic relevance in the live drift path behind tunables</li>
+<li>feat(relevance): WorkContext DB helpers + periodic refresh in FocusStateService</li>
+<li>feat(relevance): bidirectional relevance precedence in DriftClassifier</li>
+<li>feat(relevance): RelevanceClassifier pure cosine verdict with dead-band</li>
+<li>feat(relevance): WorkContext value type</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>fix(onboarding): label the model-download step by which model is fetching</li>
+<li>fix(relevance): download bge-small into app-support models dir (sandbox-safe)</li>
+<li>fix(relevance): zero-vector for blank embedBatch entries + Sendable safety notes</li>
+<li>fix(menubar): smooth icon so a transient drift frame doesn't flicker it (4P)</li>
+<li>fix(modes): gate false Overloaded/Scattered — webmail-as-comms + min-presence (4H)</li>
+<li>fix(modes): don't let a new mode's panel preempt an unacknowledged one (4C)</li>
+<li>fix(restore): canonical tab match + cross-browser search (A3, 3X/40)</li>
+<li>fix(reentry): anchor-mode tray falls back to recentFinalizedThreads (4S A2)</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>release: v0.36.0</li>
+<li>Merge feat/semantic-work-relevance: semantic work-relevance with out-of-process bge-small embedder</li>
+<li>refactor(relevance): move bge-small embedding out-of-process to RecallHelper</li>
+<li>test(relevance): real-telemetry separation check (work vs leisure, bge-small vs NLEmbedding)</li>
+<li>test(relevance): embedder bake-off (NLEmbedding vs bge-small/gte-tiny/minilm)</li>
+<li>test(relevance): expand corpus to &gt;=32 + tau sweep printout</li>
+<li>test(relevance): isolate the embedder/workContext wiring via a rescue case</li>
+<li>test(relevance): baseline-vs-candidate eval harness with drift P/R/F1</li>
+<li>test(relevance): assert corpus has &gt;=12 examples (spec floor)</li>
+<li>test(relevance): authored relevance corpus + loader</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.36.0/Recall-0.36.0.dmg" sparkle:edSignature="UBvEXT1VTVOnVhJh8xEh3uzAbplYxECRkResTxg66t32A4ekwNAhdFpW53rc/X+BBM/Ba9zzZ7uVA18KHxQlBQ==" length="16868005" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.35.0</title>
       <pubDate>Tue, 23 Jun 2026 08:36:53 +0000</pubDate>
       <sparkle:version>69</sparkle:version>
