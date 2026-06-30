@@ -6,6 +6,25 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.36.1</title>
+      <pubDate>Tue, 30 Jun 2026 14:44:49 +0000</pubDate>
+      <sparkle:version>71</sparkle:version>
+      <sparkle:shortVersionString>0.36.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.36.1</h1>
+<h2>Fixes</h2>
+<ul>
+<li>fix(embeddings): unify on out-of-process bge-small; remove in-process NLEmbedding</li>
+</ul>
+<h2>Other</h2>
+<ul>
+<li>release: v0.36.1</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.36.1/Recall-0.36.1.dmg" sparkle:edSignature="85r0+qMBF/eF6/2l9nZcPM8Fo9Gz63RxlAp171koh9SeCr/3jeCa3uBJpVkvhEfcf7cmnuW+YDoRDEKnVybQBQ==" length="16868983" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.36.0</title>
       <pubDate>Thu, 25 Jun 2026 15:28:18 +0000</pubDate>
       <sparkle:version>70</sparkle:version>
