@@ -6,6 +6,145 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.37.0</title>
+      <pubDate>Fri, 10 Jul 2026 14:02:22 +0000</pubDate>
+      <sparkle:version>73</sparkle:version>
+      <sparkle:shortVersionString>0.37.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.37.0</h1>
+<p>---</p>
+<h2>Recall now understands parallel work</h2>
+<p>Until now, Recall assumed you did one thing at a time. If you jumped between a</p>
+<p>code review, a Slack conversation, and a deploy, it mashed them into one</p>
+<p>blurry thread. This release rebuilds tracking around how work actually</p>
+<p>happens: <strong>each workstream gets its own thread, running side by side</strong>. The</p>
+<p>menubar shows what you're focused on now, plus an "Also live" list of the</p>
+<p>other things you have in flight. Time is counted honestly per stream — five</p>
+<p>minutes in the code review is five minutes in the code review, even if Slack</p>
+<p>was blinking next to it.</p>
+<h2>Projects that match reality</h2>
+<p>Project recognition was rebuilt from the ground up. Recall now derives your</p>
+<p>projects from the actual shape of your work — which files, repos, pages, and</p>
+<p>conversations genuinely belong together — instead of guessing from</p>
+<p>co-occurrence alone.</p>
+<p>What you'll notice:</p>
+<ul>
+<li><strong>Far fewer "Franken-projects."</strong> Work from two different projects that</li>
+</ul>
+<p>  happened to share an afternoon no longer gets fused into one card, and one</p>
+<p>  project can no longer silently swallow another's identity. If Recall thinks</p>
+<p>  two established projects might be the same thing, it <em>suggests</em> a merge in</p>
+<p>  Insights — you decide. It never merges them behind your back.</p>
+<ul>
+<li><strong>Fewer junk projects.</strong> A page you glanced at once, a Google search, a</li>
+</ul>
+<p>  meeting link — these no longer become "projects" that collect your real</p>
+<p>  work. Entertainment can't mint projects at all (see below).</p>
+<ul>
+<li><strong>Renames stick.</strong> If you rename a project, that name is yours — Recall</li>
+</ul>
+<p>  will never overwrite it.</p>
+<h2>Recognition for more than code</h2>
+<p>Project tracking used to be sharpest for developers — repos, files, branches.</p>
+<p>This release brings that same first-class recognition to more kinds of work:</p>
+<ul>
+<li><strong>CRM work</strong> — a Salesforce or HubSpot account, deal, or contact you're</li>
+</ul>
+<p>  actually working on becomes its own project, grouped by the record instead</p>
+<p>  of lumped together as "that CRM tab."</p>
+<ul>
+<li><strong>Creative &amp; office documents</strong> — Final Cut, Premiere, DaVinci, After</li>
+</ul>
+<p>  Effects, Logic, Photoshop, Illustrator, Sketch, Word, Excel, PowerPoint and</p>
+<p>  more. When Recall can see which document you have open, that document</p>
+<p>  anchors a real project — so an editor's timelines and a writer's docs get</p>
+<p>  the same treatment a developer's repos always had.</p>
+<p>Nothing changes for the work Recall already recognized; this just widens the</p>
+<p>net so more professions get real projects instead of a generic "app" bucket.</p>
+<h2>When Recall isn't sure, it says so</h2>
+<p>The biggest philosophical change in this release: <strong>Recall stopped guessing.</strong></p>
+<p>Work that can't be confidently placed goes to an "unassigned" state instead</p>
+<p>of being forced into the nearest project. And a new on-device background</p>
+<p>assistant quietly gathers evidence over time — as you keep working, it files</p>
+<p>those unassigned items into the right project **only when several independent</p>
+<p>signals agree**. Every automatic filing is logged and reversible. Nothing</p>
+<p>leaves your Mac; it's the same local AI doing the thinking.</p>
+<h2>Finish tasks right from the panels</h2>
+<ul>
+<li>The <strong>Smart Return</strong> panel (the "welcome back" card) now has an</li>
+</ul>
+<p>  <strong>"I finished this"</strong> button — with a small celebration when you tap it,</p>
+<p>  because closure deserves one. The next thing worth returning to slides in</p>
+<p>  right after, so the momentum carries.</p>
+<ul>
+<li>The <strong>"Too many threads. Pick one."</strong> panel got the same treatment — mark</li>
+</ul>
+<p>  things done or skip to the next suggestion right from the panel.</p>
+<ul>
+<li>Finished work stays finished — it will never be suggested again, anywhere.</li>
+<li>The Smart Return panel <strong>no longer disappears on a timer</strong>. It waits until</li>
+</ul>
+<p>  you decide: return, finish, or close.</p>
+<ul>
+<li>Suggestions got smarter about duplicates: you won't be offered the same</li>
+</ul>
+<p>  title twice in a row, and duplicate topics with identical names now merge</p>
+<p>  automatically.</p>
+<h2>Browse any day, not just today</h2>
+<p>The <strong>Today view can now travel back in time</strong>: arrows and a calendar in the</p>
+<p>header let you open any past day and see exactly what you worked on — same</p>
+<p>cards, same stats, frozen as that day ended. "Today's work" becomes</p>
+<p>"Tuesday's work" when you're looking at Tuesday.</p>
+<h2>Movies are not work</h2>
+<p>Recall finally knows the difference between <em>doing</em> things and <em>watching</em></p>
+<p>things. Searching for a film, downloading it, watching it — that's leisure</p>
+<p>now, judged from what's actually on screen (not from a blocklist of apps, so</p>
+<p>a video editor's timeline still counts as work):</p>
+<ul>
+<li>Watching something <strong>while you have active work open</strong> counts as drift —</li>
+</ul>
+<p>  you'll get the same gentle nudge as any other distraction.</p>
+<ul>
+<li>Watching something <strong>when nothing's active</strong> is simply a break. No task</li>
+</ul>
+<p>  card, no fake project, no nudge. Your reports stay clean.</p>
+<p>Also fixed: real work that mentioned a pause was sometimes filed under</p>
+<p>Breaks — no longer.</p>
+<h2>Untitled threads stay backstage</h2>
+<p>Threads no longer appear in the Today list as "Untitled Thread" — they show</p>
+<p>up once they've earned a name. Less noise while work is still settling.</p>
+<h2>Opening Recall actually brings it to you</h2>
+<p>Clicking <strong>Today</strong> (or any menubar item) now pulls the window to the front, on</p>
+<p>top of whatever you're using — no more window opening off on another desktop</p>
+<p>where you can't find it. And while it's open, Recall shows up in the ⌘-Tab app</p>
+<p>switcher like any normal app, so you can flip back to it the usual way.</p>
+<h2>Stability you'll feel</h2>
+<ul>
+<li><strong>Restarts and crashes no longer eat your work.</strong> In-flight threads survive</li>
+</ul>
+<p>  an app restart or update with their time and context intact.</p>
+<ul>
+<li><strong>The overnight hang is gone.</strong> The on-device AI could previously wedge</li>
+</ul>
+<p>  under load and freeze tracking until you noticed (sometimes a whole night).</p>
+<p>  The root cause is fixed, and a watchdog now restarts the AI automatically</p>
+<p>  within a couple of minutes if anything like it ever happens again.</p>
+<h2>Your account page (joinrecall.com)</h2>
+<p>If you subscribed through our site (or use a partner code), you can now</p>
+<p><strong>add extra device slots</strong> from your account — half the price of your plan,</p>
+<p>per device, cancel anytime from the same page. AppSumo licenses keep their</p>
+<p>device counts managed through AppSumo, as before.</p>
+<p>---</p>
+<h3>The theme of this release</h3>
+<p>Recall trusts evidence, not guesses. It watches how your work actually</p>
+<p>clusters, admits when it doesn't know, corrects itself when it learns better,</p>
+<p>and leaves every decision inspectable and reversible. Less cleanup, fewer</p>
+<p>surprises, and a dashboard that looks like your real week.</p>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.37.0/Recall-0.37.0.dmg" sparkle:edSignature="GAoGvRk+MtexDUhofu9b+7YU0u+3+I1YITAQ407X3T8bU5wgonc9uy2+MIfULKn7gJYE72zq2UrtkPD+1SywDg==" length="17277312" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.36.2</title>
       <pubDate>Wed, 01 Jul 2026 21:39:02 +0000</pubDate>
       <sparkle:version>72</sparkle:version>
