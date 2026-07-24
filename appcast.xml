@@ -6,6 +6,69 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.38.0</title>
+      <pubDate>Fri, 24 Jul 2026 15:18:45 +0000</pubDate>
+      <sparkle:version>74</sparkle:version>
+      <sparkle:shortVersionString>0.38.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall v0.38</h1>
+<p>---</p>
+<h2>We heard you: Recall is quieter now</h2>
+<p>The most consistent feedback since launch is that Recall interrupts too much.</p>
+<p>You're right, and your feedback shapes what we build. This release acts on it.</p>
+<p><strong>Most proactive panels are now off by default.</strong> The Foggy helper, the</p>
+<p>Overloaded picker, and the Scattered anchor stay disabled until we make them</p>
+<p>good enough to earn your attention. Two interruptions remain on:</p>
+<ul>
+<li><strong>Smart Return</strong>, which picks up where you left off after a break</li>
+<li><strong>Drift reminder</strong>, a gentle pull-back when you've wandered off your task</li>
+</ul>
+<p>All five now live in <strong>Settings → Nudges</strong>, so you decide what gets to</p>
+<p>interrupt you. Recall keeps tracking quietly either way: if you re-enable a</p>
+<p>panel next month, it works instantly with full history behind it.</p>
+<h2>Windows open where you are</h2>
+<p>Clicking Settings (or Today, or Insights) from the menubar used to be a small</p>
+<p>adventure. Sometimes nothing happened. Sometimes macOS teleported you to</p>
+<p>another desktop. Sometimes the window opened behind everything else. All of</p>
+<p>that is fixed at the root.</p>
+<p>Recall windows now **open on the Space you're on, right on top of what you're</p>
+<p>doing**, even over a maximized editor on another desktop, the way a system</p>
+<p>dialog would. The first click works, the window lands on the tab you asked</p>
+<p>for, and closing it hands focus straight back to the app you came from. We</p>
+<p>also removed a long-standing invisible bug: a phantom hidden window that</p>
+<p>silently hijacked menubar navigation.</p>
+<h2>Help us make Recall smarter, and get 3 months free</h2>
+<p>Recall is in early beta. The two hardest things it does, recognizing your</p>
+<p>projects and understanding your tasks, improve fastest with real-world</p>
+<p>diagnostics: that's what we use to train and tune the models and algorithms</p>
+<p>at Recall's core.</p>
+<p>The deal is simple. **Share diagnostics and your free trial runs 3 months</p>
+<p>instead of 7 days**, for as long as sharing stays on. Diagnostics are</p>
+<p>optional, off by default, stored in the EU, and deleted after 30 days. The</p>
+<p>"What's shared" panel spells out exactly what leaves your Mac. If you're</p>
+<p>already sharing: thank you. The extended trial applies to you automatically.</p>
+<h2>Also in this release</h2>
+<ul>
+<li><strong>Summon Smart Return anytime</strong> with the menubar button or ⌥⌘R, without</li>
+</ul>
+<p>  waiting for a break.</p>
+<ul>
+<li><strong>Capture a task from your screen</strong> with ⌥⌘T. Recall reads the visible</li>
+</ul>
+<p>  task and files it for Smart Return.</p>
+<ul>
+<li><strong>Remappable global shortcuts</strong> in Settings.</li>
+<li>Drift reminders now fire correctly when you slide into leisure inside a</li>
+</ul>
+<p>  work session.</p>
+<ul>
+<li>Fixed an occasional menubar popover rendering glitch.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.38.0/Recall-0.38.0.dmg" sparkle:edSignature="bRMYQYBbUsMm/sK578/i5bgzYeQTh+BQ4AW1SumBH74EIUc63KGkFj+JTwU9UfbT+q0Xa9dXgd0x31RsmptmBA==" length="17358926" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.37.0</title>
       <pubDate>Fri, 10 Jul 2026 14:02:22 +0000</pubDate>
       <sparkle:version>73</sparkle:version>
