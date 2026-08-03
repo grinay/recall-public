@@ -6,6 +6,66 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.39.0</title>
+      <pubDate>Mon, 03 Aug 2026 14:51:12 +0000</pubDate>
+      <sparkle:version>76</sparkle:version>
+      <sparkle:shortVersionString>0.39.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall v0.39 — Draft Release Notes (vs v0.38)</h1>
+<p><em>Draft for review — user-facing copy, ordered by how much you'll feel each change.</em></p>
+<p>---</p>
+<h2>A completely new welcome</h2>
+<p>First impressions matter, and ours needed work. Setting up Recall is now a</p>
+<p>proper guided tour: five short steps that show you what Recall actually</p>
+<p>does, with a live demo of a work thread being captured, interrupted, held,</p>
+<p>and brought back.</p>
+<p>We also rewrote every word of the privacy explanation, and we mean every</p>
+<p>word literally. The setup now tells you exactly what Recall reads, what it</p>
+<p>never stores, and what leaves your Mac only if you choose to share</p>
+<p>diagnostics. No marketing gloss: the screenshot pipeline is named first,</p>
+<p>plainly.</p>
+<p>One more honesty upgrade: macOS itself occasionally re-asks capture apps</p>
+<p>for screen access, with wording that sounds scarier than it is. Setup now</p>
+<p>shows you that exact prompt in miniature, so when the real one appears you</p>
+<p>know it is routine. And the AI model download starts by itself while you</p>
+<p>read, no buttons to hunt for.</p>
+<h2>Breadcrumbs: leave yourself a note before you get pulled away</h2>
+<p>The thing you lose when something interrupts you is the why. Press</p>
+<p><strong>⌥⌘B</strong> anywhere and type one line: "waiting on CI, next: fix the flaky</p>
+<p>test". It attaches to the thread you are on, and it is the first thing</p>
+<p>Smart Return shows when you come back. Your own words, not a guess.</p>
+<p>Recall can also offer the note automatically when it sees you get pulled</p>
+<p>away. The first time it happens, it asks whether you want that every time</p>
+<p>or never, and respects the answer.</p>
+<h2>Invite a friend, straight from Recall</h2>
+<p>A few days in, Recall asks two small favors, once: tell us how it is</p>
+<p>going, and invite someone who might need it. Type a friend's email and we</p>
+<p>send them one invitation with your personal link. Signups from your link</p>
+<p>are credited to you, we never email that address again, and if you prefer,</p>
+<p>you can just copy the link instead.</p>
+<h2>Recall now tells you it is learning</h2>
+<p>New installs used to open an empty menu and wonder if something was</p>
+<p>broken. Now the menu opens itself when setup finishes, showing exactly</p>
+<p>where Recall lives, and a gentle pulse explains that it is learning your</p>
+<p>work and needs a few hours before your day appears. Nothing for you to do.</p>
+<h2>Also in this release</h2>
+<ul>
+<li>Smart Return's shortcut now reliably opens the Today view when there is</li>
+</ul>
+<p>  nothing to resume, even if the dashboard window was closed.</p>
+<ul>
+<li>Setup asks your role and how you found Recall (optional, skippable) and</li>
+</ul>
+<p>  a required email, so we can reach you with important product notices.</p>
+<p>  Product updates by email are strictly opt-in.</p>
+<ul>
+<li>Many small window and layout fixes across the new screens.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.39.0/Recall-0.39.0.dmg" sparkle:edSignature="Zp8mZlQMAtZ5l7cRXXmQrpTSeUe6Ir/LpIoR5D6bQzeWwl8HXHe5sdlJDLLxhrUmfXAZUFAYQ+FTdTCKYXCwAg==" length="17728623" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.38.0</title>
       <pubDate>Fri, 24 Jul 2026 15:18:45 +0000</pubDate>
       <sparkle:version>74</sparkle:version>
