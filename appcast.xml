@@ -6,6 +6,76 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.40.0</title>
+      <pubDate>Thu, 13 Aug 2026 18:09:54 +0000</pubDate>
+      <sparkle:version>77</sparkle:version>
+      <sparkle:shortVersionString>0.40.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.40.0</h1>
+<p>---</p>
+<h2>Some things are none of Recall's business</h2>
+<p>Recall now recognizes adult and other clearly private content on screen and</p>
+<p>refuses to record it. Not "records it and hides it": nothing is analyzed,</p>
+<p>nothing is written down, no window title, no description, no trace in your</p>
+<p>history. The check runs on your Mac like everything else.</p>
+<p>This release also cleans up the past, once: on first launch it sweeps your</p>
+<p>existing history and removes anything the filter would have blocked, so</p>
+<p>old records get the same protection as new ones.</p>
+<h2>Pause Recall with two clicks</h2>
+<p>Sometimes you just want Recall off, and you shouldn't have to quit the app</p>
+<p>for that. The menubar tray now has a Pause button: 15 minutes, 1 hour,</p>
+<p>3 hours, the rest of the day, or until you turn it back on. While paused,</p>
+<p>the menubar icon changes so there is never a question about whether Recall</p>
+<p>is watching, and when you pause indefinitely, Recall gently reminds you</p>
+<p>later that it is still off, so you don't lose days of history by accident.</p>
+<h2>Working on two things at once no longer confuses Recall</h2>
+<p>The bug you may have actually noticed: work two projects side by side, and</p>
+<p>one thread's summary quietly absorbs the other project's activity. A chat</p>
+<p>about project A gets described as project B. Frustrating, and until now,</p>
+<p>structural.</p>
+<p>We rebuilt how Recall decides which thread each screen moment belongs to.</p>
+<p>Every moment is now assigned to exactly one thread at the instant it</p>
+<p>happens, and titles, descriptions, and summaries are built only from</p>
+<p>moments that truly belong to that thread. When your activity is genuinely</p>
+<p>mixed and there is no honest answer, Recall now says nothing instead of</p>
+<p>guessing wrong. Threads captured from this version on stay clean, even</p>
+<p>with four projects open at once.</p>
+<h2>Smart Return, easier to read at a glance</h2>
+<p>The comeback panel has a new layout: one clear "where you left off" block</p>
+<p>up top, and below it a plain list titled "Also waiting" with everything</p>
+<p>else on your plate. Clicking an item lets you look at it first — nothing</p>
+<p>opens until you press "Return to where you were". If there are more than</p>
+<p>a few, "show all" expands the list right inside the panel, which now</p>
+<p>grows upward instead of sliding off the bottom of your screen. Also fixed</p>
+<p>a crash that could happen when clicking an item in the list.</p>
+<h2>A cleaner Loops tab</h2>
+<p>Loops now opens with a quick summary of what's waiting on you, how much is</p>
+<p>snoozed, and how long your oldest loop has been stalled. The freshest</p>
+<p>loops come first, anything untouched for over a month is tucked into a</p>
+<p>collapsed section, and snoozed loops now show when they'll wake up. The</p>
+<p>whole page matches the look of the rest of the app.</p>
+<h2>Also in this release</h2>
+<ul>
+<li>Long-lived AI chat tabs (ChatGPT, Claude, and friends) no longer stamp</li>
+</ul>
+<p>  their window title onto unrelated threads.</p>
+<ul>
+<li>Threads without enough signal to label no longer clog the queue and</li>
+</ul>
+<p>  delay labels for everything else.</p>
+<ul>
+<li>Coming back Monday morning: Smart Return now looks at your last active</li>
+</ul>
+<p>  day, not the empty weekend, when picking what to offer.</p>
+<ul>
+<li>A note you leave with ⌥⌘B on the thread you're still working shows up</li>
+</ul>
+<p>  in Smart Return right away, not after the thread closes.</p>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.40.0/Recall-0.40.0.dmg" sparkle:edSignature="j1aSxfSPsvP0qDVQrqEMAFWRNn6yZptZw5DwIU4mCDSkfZkQxgnhseQMOQOX4RUJuaGhxHoHuyzeksV84hQvBQ==" length="17853464" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.39.0</title>
       <pubDate>Mon, 03 Aug 2026 14:51:12 +0000</pubDate>
       <sparkle:version>76</sparkle:version>
