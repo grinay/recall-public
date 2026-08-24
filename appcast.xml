@@ -6,6 +6,65 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.41.0</title>
+      <pubDate>Mon, 24 Aug 2026 09:39:20 +0000</pubDate>
+      <sparkle:version>78</sparkle:version>
+      <sparkle:shortVersionString>0.41.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.41.0</h1>
+<h2>Your corrections stick, and Recall learns from them</h2>
+<p>Fixing a wrong thread name or a misfiled thread used to be temporary. Now every correction is permanent, and it teaches Recall how you talk about your work:</p>
+<ul>
+<li>Rename a thread (pencil icon on the thread page). Your name stays, and your words start showing up in how Recall names similar work.</li>
+<li>Move a thread to the right project, and it stays there.</li>
+<li>Rename, merge, or archive projects; rename or delete topics. If a new name matches an existing project, Recall offers to merge them.</li>
+</ul>
+<h2>Search your day</h2>
+<p>Today has a search box. Type a few letters and Recall finds threads by name, summary, or the note you left with ⌥⌘B.</p>
+<h2>Start: one click back into a project</h2>
+<p>Recall now learns which apps you usually open together for each project (your editor, the project's browser tabs, the team chat) and offers the combination as a one-click <strong>Start</strong> row in the menubar tray. Click it and everything opens where you left it. Nothing to set up: presets appear once a project has enough history, keep up with your habits, and any item you don't want can be removed with one click.</p>
+<p>Press <strong>⌥⌘P</strong> anywhere to see every learned preset in one panel; keys 1–9 launch them. Remappable in Settings → Shortcuts.</p>
+<h2>Drift reminders are back, and smarter</h2>
+<p>The drift reminder had gone quiet for a while. It's back, and better at telling real drift from real work:</p>
+<ul>
+<li>A clear detour (video, music, feeds) gets a gentle reminder after about five minutes. Something that looks like work but isn't your project gets a longer leash, so genuine research is never flagged.</li>
+<li>It still reaches you right after a thread closes. Wander off within fifteen minutes of real work and the reminder points you back. Later than that, you're off the clock and Recall stays quiet.</li>
+<li>It learns from how you respond, within sensible limits.</li>
+</ul>
+<h2>Design and creative work is recognized properly</h2>
+<p>Figma files, Photoshop and Premiere projects, Miro boards and similar work now show up as real projects once you return to them, instead of being lumped together as "some app". One-off windows stay out of your list; the work you keep coming back to earns its place.</p>
+<h2>Better thread names and summaries</h2>
+<ul>
+<li>Names and summaries describe what you were mainly doing, not whichever window happened to be open last.</li>
+<li>Meetings stay separate from the work around them.</li>
+<li>Your day summary folds brief touches into the work they belong to.</li>
+<li>Duplicate topics are merged, and odd half-sentences no longer show up as thread names.</li>
+<li>Smart Return's "Next up" shows the actual work, and never suggests a break.</li>
+</ul>
+<h2>No more freezes</h2>
+<p>If Recall sometimes felt stuck for a few seconds, that's fixed. It stays responsive now, even on long, busy days.</p>
+<h2>Menubar tray improvements</h2>
+<ul>
+<li>The tray no longer occasionally renders upside down or garbled.</li>
+<li>The context stack shows one clean row per app.</li>
+<li>Hotkeys are shown right under the footer, so you learn them by seeing them. Settings → Shortcuts got a tidier layout.</li>
+<li>"Show another" works reliably in Overloaded mode.</li>
+</ul>
+<h2>Uninstall properly</h2>
+<p>Settings → Data → "Uninstall Recall..." removes everything cleanly: the app, the AI model, your data, and all settings. Reinstalling later runs setup again as it should.</p>
+<h2>Also in this release</h2>
+<ul>
+<li>Notifications from background apps no longer wake Recall or trigger the return panel while you're away.</li>
+<li>Loops no longer shows placeholder text as an open question.</li>
+<li>The project page lists threads that haven't been grouped yet.</li>
+<li>Project rename moved into the actions menu; archiving explains itself before you confirm.</li>
+<li>Various smaller UI fixes in the tray header.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.41.0/Recall-0.41.0.dmg" sparkle:edSignature="DjlQs0dw1vyUtx2mzbimqa2+TBM3Fk3giEHLw0zfFji7pZBRRrxox0tQZAYYYJBjaS9ZLTXEs84XWBsXJCb6Bw==" length="18301088" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.40.0</title>
       <pubDate>Thu, 13 Aug 2026 18:09:54 +0000</pubDate>
       <sparkle:version>77</sparkle:version>
