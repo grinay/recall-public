@@ -6,6 +6,110 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.42.1</title>
+      <pubDate>Mon, 21 Sep 2026 20:49:53 +0000</pubDate>
+      <sparkle:version>80</sparkle:version>
+      <sparkle:shortVersionString>0.42.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.42.1</h1>
+<h2>Meet Recall Core, our own model</h2>
+<p>Until now Recall ran on a stock open-source model, Ministral 3B. This release ships <strong>Recall Core v1</strong>: a model we trained ourselves, on the one job that matters here, reading a screen and telling what you're working on. It runs on your Mac exactly as before. Nothing leaves your device; the only thing that changed is how well it understands you.</p>
+<p>Measured on the same Macs and the same screens as the previous release:</p>
+<table style="border-collapse:collapse;margin:6px 0 10px 0">
+<tr><th style="padding:4px 14px 4px 0;text-align:left;vertical-align:top;border-bottom:1px solid rgba(128,128,128,.45)">What Recall does</th><th style="padding:4px 14px 4px 0;text-align:left;vertical-align:top;border-bottom:1px solid rgba(128,128,128,.45)">v0.41 (Ministral 3B)</th><th style="padding:4px 14px 4px 0;text-align:left;vertical-align:top;border-bottom:1px solid rgba(128,128,128,.45)">v0.42 (Recall Core v1)</th></tr>
+<tr><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">Time to read one screen</td><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">6.0 s</td><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">3.0 s</td></tr>
+<tr><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">Names threads correctly</td><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">56%</td><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">88%</td></tr>
+<tr><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">Tells a detour from real work</td><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">53%</td><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">93%</td></tr>
+<tr><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">Notices when you're stuck</td><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">47%</td><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">89%</td></tr>
+<tr><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">Files new work under the right topic</td><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">22%</td><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">90%</td></tr>
+<tr><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">Reads the names, tickets and files on screen</td><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">35%</td><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">55%</td></tr>
+<tr><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">Download size</td><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">2.3 GB</td><td style="padding:4px 14px 4px 0;text-align:left;vertical-align:top">1.6 GB</td></tr>
+</table>
+<p>Twice as fast per screen means about half the energy per screen, and the labels, the drift reminders and the topic grouping all get noticeably sharper. Recall Core is a fine-tune of Qwen3.5-VL (Apache 2.0); the base model and its licence are listed under Settings → About → Acknowledgements.</p>
+<p><strong>On update:</strong> Recall downloads Recall Core once (about 1.4 GB) and then removes the old model automatically, so you end up with about 2 GB more free space than before, not less.</p>
+<h2>Your free trial is now 30 days</h2>
+<p>Seven days was not enough to see Recall learn your projects. New installs get a 30-day trial; if you are already in a trial, it extends to 30 days from when you installed. Sharing diagnostics still stretches it to three months.</p>
+<h2>The menubar tray, redesigned</h2>
+<p>The tray has one shape now, whatever mode you're in. Top to bottom:</p>
+<ul>
+<li><strong>Load</strong>: the mode as a word, "N open loops · k kept · focus …", and a four-bar level glyph, so a glance tells you how scattered the day is.</li>
+<li><strong>Smart Return</strong> and <strong>+ Capture</strong> side by side, hotkeys shown.</li>
+<li>Three tabs, <strong>Kept · Loops · Start</strong>, each with a count. Kept notes can be edited, completed or removed right in the tray. A loop clicked here opens Loops scrolled to it and highlighted. Start holds your learned presets.</li>
+</ul>
+<p>The Now card and the context stack are gone; the mode word lives in the header, and the menubar icon itself never changes.</p>
+<h2>Dark theme</h2>
+<p>Settings → Appearance: System, Light or Dark. The dark palette keeps the warm-paper feel, with warm near-blacks, cream ink and a lifted violet accent. Every screen, the wizard included, adapts. The setup steps also link to the community now, so help is a click away from the start.</p>
+<h2>Recall keeps track of what you were asked to do</h2>
+<p>Chats are where commitments get made and forgotten. When someone asks you for something in Slack, Teams, Telegram, WhatsApp or Mail, or you promise something back, Recall notices and keeps it:</p>
+<ul>
+<li><strong>Loops</strong> has two new groups, <strong>Asked of you</strong> and <strong>You promised</strong>, each with the person, the ask, and a one-click way back to that chat. Mark it done, snooze it, or let it go.</li>
+<li><strong>Smart Return</strong> shows an <strong>Owed</strong> block on every return: the open asks from today, right on the card of the work you're coming back to.</li>
+<li>Reminders are quiet by design: at most once a day per ask, never while you're mid-conversation with that person, and never more than one an hour.</li>
+<li>Your own replies count as things you promised, even when the chat spells your name differently from your Mac account. And one ask is one loop: the same request read twice, or attributed to two people, never shows up as two.</li>
+</ul>
+<p>The text of your messages is used only on your Mac and is never part of any diagnostics you choose to send us.</p>
+<h2>Notes for projects, not just threads, and a page to read them</h2>
+<ul>
+<li>A new <strong>Notes</strong> tab in the main window shows every note you've left, newest first and grouped by day: the note, where you left it, and when. Open the thread or project from the row, edit, mark done or remove. Done and removed notes move to an Archived section below, so nothing you wrote is ever lost.</li>
+<li>The tray's <strong>Kept</strong> tab shows the five newest and the true count; "N more · Notes" opens the page.</li>
+<li><strong>⌥⌘B</strong> now offers every active project, most recent first; the thread's own project is only the default. A project note shows on Smart Return for that project and on the project page.</li>
+<li>Notes are never erased. Editing appends a new note and keeps the old one as history; Complete and Remove archive rather than delete.</li>
+<li>The note prompt after a thread ends is a passive hint, not a panel that grabs your keyboard mid-sentence.</li>
+</ul>
+<h2>Move work to the right project, and Recall learns from it</h2>
+<p>On a project page, any task or unfiled thread has <strong>Move to…</strong> with the list of your active projects. The move sticks, and Recall learns from it: the files, repos and documents behind that work are pinned to the project you chose, so future work on the same things files itself there.</p>
+<h2>Smart Return knows what's actually waiting</h2>
+<ul>
+<li>A thread you left a note on always comes first.</li>
+<li>"Also waiting" and "Next up" only list work that is genuinely unfinished, left at least half an hour ago, or interrupted by a meeting, a message, a lock or sleep. Work you simply moved on from no longer clutters the queue, and finishing everything really reaches All clear.</li>
+<li>Finishing an item advances to the next waiting one and never re-offers what you just closed.</li>
+<li>Every thread title carries its project ("plantool — code review"), in Today and on the return panel alike.</li>
+<li>⌥⌘R always brings back the last thread, never an empty Today.</li>
+</ul>
+<h2>Names and summaries you can trust</h2>
+<ul>
+<li>Descriptions no longer contain facts that were never on screen. A number, a ticket id or a file name appears in a summary only if it was actually there.</li>
+<li>A stale window title (an old chat tab, a pinned doc) can no longer headline a label or leak into a summary.</li>
+<li>Identifiers keep their casing instead of being flattened into one word.</li>
+<li>Your day recap no longer shows template placeholders in place of a sentence, and reads in sentence case.</li>
+<li>Every loop card in Loops shows its title, open question and description.</li>
+</ul>
+<h2>Topics behave</h2>
+<ul>
+<li><strong>Done</strong> and <strong>Let go</strong> stick. Coming back to a finished piece of work reopens the same topic instead of creating a duplicate.</li>
+<li>Topics you renamed, finished, let go or moved are never merged away.</li>
+<li>Every merge Recall makes is listed on the project page as "Merged from …" with an <strong>Undo</strong> that puts everything back, for two weeks.</li>
+<li>Clicking a topic in Loops expands its threads instead of jumping to the latest one.</li>
+</ul>
+<h2>Unfiled work gets filed</h2>
+<p>Work that landed in "Other" used to stay there. Recall now keeps re-checking it, so a thread picks up its project as soon as there is enough to go on instead of staying unfiled forever.</p>
+<h2>Faster, lighter, no freezes</h2>
+<ul>
+<li>The few-second freezes some of you saw on busy days are gone. Recall stays responsive however long the day gets.</li>
+<li>Less battery. Recall no longer re-reads your screen when the only thing that changed is a spinner, a clock or a blinking cursor, and it does far less work per screen it does read. Real changes are still picked up within seconds.</li>
+<li>The model takes about 1.6 GB on disk instead of 4 GB, and setup no longer waits for the download: grant permissions while it runs, and Recall starts watching the moment it finishes.</li>
+</ul>
+<h2>Privacy</h2>
+<ul>
+<li>Every screenshot that leaves your Mac, in a bug report or the opt-in diagnostics, is scrubbed of personal data first. If it cannot be scrubbed, it is not sent.</li>
+<li>Message text from chats never leaves the device, including in diagnostics.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>On macOS 15, the on-device model could fail to start after install. Fixed.</li>
+<li>If the model fails to start, Recall no longer keeps retrying in the background; it carries on with everything else and reports the problem once.</li>
+<li>Updating by downloading the DMG by hand no longer re-runs the setup wizard.</li>
+<li>Project page: no more blank cards, notes sit under the project header, and ages read "3 days ago" instead of "214h ago".</li>
+<li>The tray no longer crashes on a tab switch or opens at the wrong size.</li>
+<li>Notifications from background apps no longer trigger the return panel.</li>
+<li>The menubar icon stays put; the mode word lives in the tray header.</li>
+<li>Reopening Recall from the Dock shows the dashboard.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.42.1/Recall-0.42.1.dmg" sparkle:edSignature="i5W8yy+X1EkR9ZXm5LzcnaQjwqP6mwdB7c4PtBJwIuT/HmIb5dwXmOLuoYeksqwE/9h5+GjQBwWPGAniJt+9DA==" length="19977521" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.42.0</title>
       <pubDate>Mon, 21 Sep 2026 20:29:45 +0000</pubDate>
       <sparkle:version>79</sparkle:version>
