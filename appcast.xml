@@ -6,6 +6,84 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.43.0</title>
+      <pubDate>Mon, 12 Oct 2026 20:59:03 +0000</pubDate>
+      <sparkle:version>81</sparkle:version>
+      <sparkle:shortVersionString>0.43.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.43.0</h1>
+<h2>Smart Return, rebuilt around getting you back</h2>
+<p>The return panel now has two parts.</p>
+<p><strong>On top: where you left off.</strong> The thread you were in, your note (or the question you left open), and one line that says exactly what comes back: "Opens Claude chat (VS Code) and Chrome". Click <strong>Choose</strong> to untick anything you don't want reopened, then <strong>Return to where you were</strong>. One click, no second screen. <strong>Done, show next</strong> marks the thread finished and moves on to the next note you left, or to All clear.</p>
+<p><strong>Below: waiting on you.</strong> One list, in the same order as the tray: coding agents that need your approval, people who asked you for something, agents that finished, and other threads you left a note on. Each row has one clear action: <strong>Go to session</strong>, <strong>Open chat</strong> (or tick it done), or <strong>Return to it</strong>.</p>
+<h2>Every return shows what it will open</h2>
+<p>Wherever you go back to work from (Smart Return, the tray, Loops, a thread page, a reminder), Recall first lists what it is about to reopen: each app, tab, file and chat, ticked. Untick what you don't need; nothing opens until you say so, and Cancel changes nothing.</p>
+<p><strong>Your coding agents come back too.</strong> If you had a Claude Code or Codex chat open while you worked on that thread, the return brings that exact chat back, not just VS Code. A Claude Code chat you had closed is reopened in VS Code or Cursor; the chat and its editor show as one row.</p>
+<h2>Coding agents that are waiting on you</h2>
+<p>Recall now watches your Claude Code and Codex sessions the way it watches your own work:</p>
+<ul>
+<li>A session that needs your approval, or has finished and is waiting for you, shows up in the tray's "Waiting on you", in Loops → Agents, and on Smart Return, with <strong>Go to session</strong> taking you straight to its tab.</li>
+<li>A session blocked on a permission prompt for five minutes gets one quiet nudge. A session that is merely waiting never nags.</li>
+<li>When an agent finishes the work a loop was about, the loop can close itself.</li>
+<li>A Codex conversation opens where it runs: in the Codex app, or in VS Code for the extension, instead of a terminal.</li>
+<li>Turn on precise tracking under Settings → Integrations (it adds a small hook to Claude Code's and Codex's own settings; remove it any time).</li>
+</ul>
+<h2>Talk to us, and get an answer, inside Recall</h2>
+<p>Send Feedback is now a conversation. Report a problem or suggest a feature as before; when we reply, you get a notification and a dot on the tray, and the answer is right there under <strong>Conversations</strong> in the Feedback window. Write back from the same place. Nothing about your work is attached unless you choose to include it, and screenshots are scrubbed before they leave your Mac, as always.</p>
+<h2>Loops, as lists</h2>
+<p>Loops is now a page of lists, like Reminders: <strong>Waiting</strong>, <strong>People</strong>, <strong>Agents</strong>, <strong>Notes</strong>, one list per project, and <strong>Tidy up</strong> for merge and split suggestions. The Notes page lives here now. Every row can be moved to another project, and a project list's menu can rename, merge or archive it.</p>
+<p>Loops also got stricter about what counts as unfinished: real work you left, with an open question, at least a quarter of an hour of work, and left at least half a day ago. The counts you see are people and agents, never guesses.</p>
+<h2>Move anything to the right project</h2>
+<p>One <strong>Move to project…</strong> picker, everywhere: tasks and threads on Today, the project page and thread pages, and every Loops row, including asks, agent sessions and project notes. Search, or create a <strong>New project</strong> on the spot. Recall learns from the move: the repo or document behind that work files itself there from now on. Moving a coding-agent session pins its whole repo to the project, and moving one person's ask files their other asks in that app along with it.</p>
+<h2>The tray is your day</h2>
+<p>The menubar tray now shows today: active time and the split by project, one "Waiting on you" line, and what you worked on, newest first. Step back up to six days with the arrows. Shortcuts are shown next to the commands they run, in the ⋯ menu.</p>
+<p><strong>Today</strong> in the main window is now a timeline: one lane per project, your threads as blocks across the day, Return to and Owed side by side.</p>
+<h2>Hours you can trust</h2>
+<ul>
+<li>Time away from your Mac no longer counts as work. A Mac left awake over a weekend could rack up dozens of "active" hours on one thread; it now stays at the time you actually spent.</li>
+<li>A day can never show more than the day. A thread that runs past midnight is split by when you actually worked on it.</li>
+<li>Stretches with no captured screens never count as active time.</li>
+<li>Totals that were inflated by these bugs are corrected automatically on update.</li>
+</ul>
+<h2>Recall Core v1.1</h2>
+<p>An updated version of our own on-device model, trained on more real work. It is better at reading screens it has never seen before, and its labels, summaries and day recaps stay grounded in what was actually on screen. On update Recall downloads it once and removes the previous version; the menu bar shows how far along the download is.</p>
+<h2>Names and labels that make sense</h2>
+<ul>
+<li>Projects are named like people name them: after the repo, the document or the site ("deel.com"), never after a machine id or a spreadsheet key.</li>
+<li>A Claude Code or Codex tab is named after its first request, which goes stale. Recall no longer labels your work, its summary or its open question from that tab title.</li>
+<li>A task no longer swallows its whole project, and topics Recall merged by mistake have been split back apart.</li>
+<li>Work Recall filed under the wrong project because of what was on screen nearby now follows what you were actually doing; past misfilings were corrected.</li>
+</ul>
+<h2>Usage analytics and crash reports — your choice</h2>
+<p>This version sends usage analytics: which screens and features get used (for example "Smart Return opened", "restored 3 apps"), linked to a random install ID, never anything from your screen, your work, your notes or your messages. It helps us see which parts of Recall actually help.</p>
+<ul>
+<li>It is on by default and you can turn it off any time: Settings → Privacy → <strong>Usage analytics &amp; crash reports</strong>. Crash reports follow the same switch.</li>
+<li><strong>What's sent</strong> lists every event in plain words, with a real sample.</li>
+<li><strong>Delete my analytics data</strong> erases what we hold for your Mac.</li>
+<li>Counts of how far setup gets (no install id) are sent either way, so we can see where people get stuck installing.</li>
+</ul>
+<h2>Setup asks before it does anything</h2>
+<p>On a new Mac, Recall now asks before downloading its on-device AI (a one-time 1.9 GB) and opens joinrecall.com only when you click <strong>Start free trial</strong>, to confirm your trial. You can finish setup while the download runs; the menu bar shows its progress, and Recall starts by itself when it is done.</p>
+<h2>Faster and steadier</h2>
+<ul>
+<li>No more short freezes when an app is slow to answer: Recall reads window titles, browser tabs and terminal folders off the main thread, with strict time limits.</li>
+<li>Leaving a note with ⌥⌘B never stalls, and files the note under the window you're actually in.</li>
+<li>Clicking one of Recall's notifications always brings its window to the front.</li>
+<li>Fewer wasted model calls when a window is mostly off-screen.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>A crash in the built-in power monitor when the model process restarted.</li>
+<li>Crash reports now include the reason for an app error, so we can fix what we couldn't see before.</li>
+<li>The restore checklist opens centred on your screen and shows what the thread was about.</li>
+<li>Asks read from chats no longer turn a reaction or an old message in an activity feed into a new request.</li>
+<li>A judged ask never shows up as a single word like "keep".</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.43.0/Recall-0.43.0.dmg" sparkle:edSignature="lRacOMIwVGZXm0fKsBRIdzIwK01m3N13BXVplvNDgy+qazJHmTl+MNc63Fs67Mbz3v70FeKCpoyvCdxjR8tUBA==" length="21458534" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.42.1</title>
       <pubDate>Mon, 21 Sep 2026 20:49:53 +0000</pubDate>
       <sparkle:version>80</sparkle:version>
