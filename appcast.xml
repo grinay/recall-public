@@ -6,6 +6,37 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.44.0</title>
+      <pubDate>Wed, 21 Oct 2026 16:51:15 +0000</pubDate>
+      <sparkle:version>82</sparkle:version>
+      <sparkle:shortVersionString>0.44.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.44.0</h1>
+<p>A small release about trust and smoothness: fewer surprise prompts from macOS, clearer words where Recall touches your files, and fewer moments where the app freezes for a second.</p>
+<h2>No more "Recall would like to access your Downloads folder" out of nowhere</h2>
+<p>macOS asks before an app looks into your Desktop, Documents or Downloads folder, or an external or network drive. Recall checks whether the file you have open belongs to a project folder (it looks for a <code>.git</code> folder), so it can group your work by project. Until now it also did that for PDFs in Preview and for Pages, Numbers and Keynote documents, and it checked every folder above the file, so opening a PDF from Downloads could set off a prompt you couldn't connect to anything.</p>
+<ul>
+<li>Preview, Pages, Numbers and Keynote documents no longer trigger that check.</li>
+<li>In editors and terminals the check stops at your home folder, or at the top of an external drive.</li>
+<li>When macOS does ask, the prompt now says why: Recall checks whether the open file belongs to a project folder, doesn't read or upload your files, and saying no only makes the grouping a little less precise.</li>
+</ul>
+<h2>The Feedback window says what it blacks out</h2>
+<p>Images you attach to a report are checked on your Mac before they're sent: card numbers, bank details, keys and seed phrases are blacked out, and an image that can't be checked isn't sent. The hint under Attachments used to say "Sent as-is". It now says exactly what's removed, and what isn't: names, emails and message text stay, so look an image over before you attach it.</p>
+<h2>Smoother</h2>
+<p>Fixed three places where Recall could freeze the app for a few seconds: while saving its own diagnostic records, and twice in its hourly diagnostics upload (reading the battery level, and tidying the upload queue).</p>
+<h2>Setup you can follow</h2>
+<p>Two new setup counts help us find where installs get stuck, as part of the usage analytics described under Settings → Privacy → What's sent:</p>
+<ul>
+<li><strong>Capture started:</strong> Recall began following your work after setup.</li>
+<li><strong>On-device AI couldn't start:</strong> with a broad reason only (crash, timeout, missing files, or other).</li>
+</ul>
+<p>Neither says anything about what's on your screen. With analytics switched off they're sent anonymously, like the other setup counts.</p>
+<p>Also: a screen-recording permission granted during setup is now counted correctly after the restart macOS asks for, and crash reports from the on-device AI now include the app version.</p>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.44.0/Recall-0.44.0.dmg" sparkle:edSignature="qrPkzJb7xHqvkNsHzyXl6jEKhU62i+5DMGvRiLvUBMLmaVv7/yU6MbqJ/LPG6wIJ2UBoEN48iXI50hLEOZLiAw==" length="21464184" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.43.0</title>
       <pubDate>Mon, 12 Oct 2026 20:59:03 +0000</pubDate>
       <sparkle:version>81</sparkle:version>
