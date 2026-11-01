@@ -6,6 +6,41 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.45.0</title>
+      <pubDate>Sun, 01 Nov 2026 20:28:45 +0000</pubDate>
+      <sparkle:version>85</sparkle:version>
+      <sparkle:shortVersionString>0.45.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.45.0</h1>
+<p>A release about your first days with Recall, and about Recall doing less work in the background.</p>
+<h2>Know what to expect from day one</h2>
+<p>Recall needs some of your normal work before it has anything to show. It now says what is coming, and when:</p>
+<ul>
+<li><strong>The last setup step</strong> tells you what to look for: your first threads within the hour, your whole day on the Today page tonight, and Smart Return tomorrow when you come back from a break.</li>
+<li><strong>The menu bar shows what you are on right away.</strong> While Recall is still learning your work, the tray already shows the thread you are in now and for how long, instead of only a "learning" message.</li>
+<li><strong>Your first Smart Return explains itself</strong> with one line saying what it is and when it comes up.</li>
+<li><strong>One card on your first evening</strong> shows your day: the time you worked and where it went, with a button to open the Today page. It appears once, only after a day of real work, and never while you are focused.</li>
+</ul>
+<h2>How you got here</h2>
+<p>When Smart Return brings back a piece of work, it now shows how you got to where you stopped: the last steps, in order. What you asked Claude Code or Codex, in your own words. The pages, chats and calls you were in. What someone asked of you along the way. The last step is marked "left off here", and "Show all" unfolds the rest. The full story is also on the thread's page.</p>
+<p>Nothing in it is written by AI: every line is something that happened on your Mac. Passwords, tokens and e-mail addresses are masked, and it never leaves your Mac. If Smart Return comes up while you are in a call, the story stays folded until you open it.</p>
+<p>Beside the story, <strong>Might be relevant</strong> lists up to three moments from just before or after that piece of work, in other apps, that were about the same thing: the Teams chat about the same issue, the page you checked on the side.</p>
+<p>The thread page is simpler too: How you got here replaces the Context Stack and the session timeline.</p>
+<h2>Done and ⌥⌘R agree</h2>
+<p>After you press Done on Smart Return, it now shows exactly what ⌥⌘R would show next. Before, it could say "All caught up" while ⌥⌘R still had work waiting for you. The next item also no longer makes the panel jump when it appears.</p>
+<h2>Fewer wrong asks</h2>
+<p>Your own messages in WhatsApp, Telegram and Teams are no longer mistaken for someone asking something of you.</p>
+<h2>Less background work</h2>
+<p>Recall checks whether the work you left is finished. It used to re-check every recent topic about every hour, even topics nothing had happened to, which kept the on-device AI busy for no reason. It now re-checks a topic only when there is new work on it, or after a longer and longer rest. That is about ten times fewer checks, so less battery and less fan.</p>
+<h2>Cleaner titles</h2>
+<p>A few threads and topics could be titled "Thinking Process:" instead of describing the work. That can no longer happen, and the titles that had it are repaired when you update.</p>
+<h2>Setup you can follow</h2>
+<p>One more setup count: <strong>First thread</strong>, that Recall finished grouping its first piece of your work. Like the other setup counts it says nothing about what was on your screen. The one-time first-evening card also reports whether it appeared and whether you opened or closed it, never its numbers. Both are listed under Settings → Privacy → What's sent.</p>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.45.0/Recall-0.45.0.dmg" sparkle:edSignature="5hr76wwKX9ZtAxWs5RwClFzeQ16FMw8H1DLmoqqSMVNGiXivqQXqbGLu9FIIGu/iU7PaZ1lkPsIoVJSN3+/7Aw==" length="21572261" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.44.0</title>
       <pubDate>Wed, 21 Oct 2026 16:51:15 +0000</pubDate>
       <sparkle:version>82</sparkle:version>
