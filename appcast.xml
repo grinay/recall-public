@@ -6,6 +6,59 @@
     <description>Recall release feed</description>
     <language>en</language>
     <item>
+      <title>Version 0.47.0</title>
+      <pubDate>Thu, 19 Nov 2026 17:58:30 +0000</pubDate>
+      <sparkle:version>87</sparkle:version>
+      <sparkle:shortVersionString>0.47.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<h1>Recall 0.47.0</h1>
+<p>Your coding agent can now pick up where the last session stopped. Smart Return is calmer and shows what a return will open. Chats open on the exact message. And Recall asks you fewer questions.</p>
+<h2>Your agent picks up where the last session left off</h2>
+<p>You are deep in a piece of work with Claude Code or Codex. The session ends: the context ran out, you closed the window, or you stopped for the day. The next session starts from nothing, and you explain it all again.</p>
+<p>Not anymore. With Recall running, the agent saves where it is as it works: what the task is, what is done, and what comes next. When a new session starts in the same repository, it is told what was left unfinished. You can open a fresh chat and type "continue what the last session was doing", and it does.</p>
+<ul>
+<li><strong>It works across sessions and across tools.</strong> A task Codex started can be picked up by Claude Code, and the other way round.</li>
+<li><strong>It survives a full context.</strong> Before Claude Code compacts a long session, it is asked to keep the task and its next step.</li>
+<li><strong>You turn it on per repository.</strong> When Recall sees an agent at work in a repository, it asks once: "Let Claude Code save where it left off in this repo?" Nothing is saved for a repository you have not said yes to, and "Not for this repo" is never asked again.</li>
+<li><strong>Unfinished agent work waits on you.</strong> A task nobody is working on shows as AGENT TASK in the tray, in Loops and on Smart Return, with Continue.</li>
+<li><strong>It stays on your Mac, and agents read back only what agents saved.</strong> An agent can read the tasks of its own repository and nothing else: never your notes, your chats, or anything from your screen. Nothing is written into your repositories.</li>
+</ul>
+<p>Settings → Integrations now has two tabs, Coding agents and Chats. Each agent has two switches, "Tell Recall when it waits for you" and "Save where it left off", and the list of repositories you answered for. Uninstalling Recall takes its entries out of the agents' settings again.</p>
+<h2>Smart Return</h2>
+<p><strong>It shows what it will open.</strong> Every return, from Smart Return, the tray, Loops or a thread's page, first shows a checklist of the apps, tabs and agent chats it is about to reopen. Untick what you do not want. Nothing opens before you confirm.</p>
+<p><strong>It brings back your agent chats.</strong> A return reopens the Claude Code and Codex conversations you had on screen during that work, in the window they were in.</p>
+<p><strong>Not now.</strong> When Smart Return suggests something you have not finished and do not want to go back to yet, press Not now to see the next one. Nothing is marked done.</p>
+<p><strong>A calmer panel.</strong> One surface instead of boxes inside boxes, one accent colour, and the three choices (Return, Not now, Done) side by side. Each waiting item shows its full message. When more than six things are waiting, the list starts as one line you can open, so the panel stays about the work you came back to.</p>
+<h2>Chats open where the message is</h2>
+<ul>
+<li><strong>Slack</strong> opens on the message that held the ask, inside its reply thread when it was in one.</li>
+<li><strong>Microsoft Teams</strong> opens the exact chat.</li>
+<li><strong>Telegram</strong> can open the person's chat. This is off until you switch it on in Settings → Integrations → Chats, where the card says exactly what is read: names of your chats, never a message.</li>
+<li><strong>Telegram in a browser</strong> is now read as a chat too, and Open chat goes back to its tab.</li>
+</ul>
+<p>"Open chat" now opens the conversation and nothing else.</p>
+<h2>Asks behave</h2>
+<ul>
+<li><strong>Only you close an ask.</strong> Recall no longer decides from a chat that something is done.</li>
+<li><strong>An ask reminds you once.</strong> A reminder used to come back day after day and looked like a drift warning. Now each ask reminds you one time, never when it is more than a week old, on its own card with Open chat, Done and Not an ask.</li>
+<li><strong>Asks survive a restart</strong>, and a promise you made keeps the screenshot it came from.</li>
+</ul>
+<h2>Fewer questions for you</h2>
+<ul>
+<li><strong>Overgrown tasks are tidied automatically.</strong> A task that had collected weeks of unrelated work used to wait for you to answer "split it?". Recall now splits old ones by week by itself, and a task that is still in use stops growing instead. A split can be undone from the project page for 14 days.</li>
+<li><strong>Merge suggestions only when they are worth asking.</strong> Recall no longer suggests merging into an archived project, or one you already said no to twice.</li>
+</ul>
+<h2>Smaller things</h2>
+<ul>
+<li>The first-launch model download resumes after a dropped connection or a quit, instead of starting again.</li>
+<li>Codex's own helper sessions are no longer listed as agents waiting on you.</li>
+<li>The "beta" label is gone.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/grinay/recall-public/releases/download/v0.47.0/Recall-0.47.0.dmg" sparkle:edSignature="sZkI+P43mNDvDbwUmTu9Vl0A7bKSyI9Vvm0SSlH8ZzSnuxytryOwT4Kij/oK8jqKBIlwlPeJMuqVsXoEYnwMBw==" length="22024507" type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.45.0</title>
       <pubDate>Sun, 01 Nov 2026 20:28:45 +0000</pubDate>
       <sparkle:version>85</sparkle:version>
